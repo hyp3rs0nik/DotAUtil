@@ -1,0 +1,7 @@
+development:
+  driver: postgres
+  open: user=Shiki dbname=mydota sslmode=disable
+
+live:
+  driver: postgres
+  open: user=postgres password=FrequentlySawHolePoliceman#! dbname=mydota

@@ -1,0 +1,13 @@
+---
+# file: roles/memcached/tasks/main.yml
+
+- name: Install memcached
+  apt: name=memcached state=present
+
+- name: Copy memcached config to /etc/memcached.conf
+  template: src=memcached.conf dest=/etc/memcached.conf backup=yes
+  notify: restart memcached
+
+- name: Copy Monit config to /etc/monit/conf.d/memcached
+  template: src=monit-confd-memcached dest=/etc/monit/conf.d/memcached backup=yes
+  notify: restart monit

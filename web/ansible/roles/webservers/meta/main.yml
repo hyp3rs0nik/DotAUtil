@@ -1,0 +1,8 @@
+---
+# file: roles/webservers/meta/main.yml
+
+allow_duplicates: false
+dependencies:
+  - { role: common} 
+  - { role: appcontainers }
+  - { role: supervisord }

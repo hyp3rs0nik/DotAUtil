@@ -1,0 +1,180 @@
+{
+  "data": [
+    {
+      "id": 729895525,
+      "seqNum": 657140929,
+      "startTime": 1403220646,
+      "lobbyType": 0,
+      "players": [
+        {
+          "slot": 0,
+          "heroId": 81,
+          "user": {
+            "id": "4294967295",
+            "personaName": "Kupo"
+          }
+        },
+        {
+          "slot": 1,
+          "heroId": 46,
+          "user": {
+            "id": "63260100",
+            "personaName": "Hello"
+          }
+        },
+        {
+          "slot": 2,
+          "heroId": 109,
+          "user": {
+            "id": "76391678",
+            "personaName": "AdmiralBulldog"
+          }
+        },
+        {
+          "slot": 3,
+          "heroId": 73,
+          "user": {
+            "id": "124212172",
+            "personaName": "Mushi"
+          }
+        },
+        {
+          "slot": 4,
+          "heroId": 129,
+          "user": {
+            "id": "121806344",
+            "personaName": "PieLieDie"
+          }
+        },
+        {
+          "slot": 128,
+          "heroId": 75,
+          "user": {
+            "id": "128888618",
+            "personaName": "Dendi"
+          }
+        },
+        {
+          "slot": 129,
+          "heroId": 5,
+          "user": {
+            "id": "53780187",
+            "personaName": "Akke"
+          }
+        },
+        {
+          "slot": 130,
+          "heroId": 41,
+          "user": {
+            "id": "76209261",
+            "personaName": "Babolord"
+          }
+        },
+        {
+          "slot": 131,
+          "heroId": 10,
+          "user": {
+            "id": "121099589",
+            "personaName": "S4"
+          }
+        },
+        {
+          "slot": 132,
+          "heroId": 101,
+          "user": {
+            "id": "98823456",
+            "personaName": "Chupapeng"
+          }
+        }
+      ]
+    },
+    {
+      "id": 729895526,
+      "seqNum": 657140930,
+      "startTime": 1403220046,
+      "lobbyType": 0,
+      "players": [
+        {
+          "slot": 0,
+          "heroId": 81,
+          "user": {
+            "id": "4294967295",
+            "personaName": "Tiil"
+          }
+        },
+        {
+          "slot": 1,
+          "heroId": 46,
+          "user": {
+            "id": "63260100",
+            "personaName": "Hello"
+          }
+        },
+        {
+          "slot": 2,
+          "heroId": 109,
+          "user": {
+            "id": "76391678",
+            "personaName": "AdmiralBulldog"
+          }
+        },
+        {
+          "slot": 3,
+          "heroId": 73,
+          "user": {
+            "id": "124212172",
+            "personaName": "Mushi"
+          }
+        },
+        {
+          "slot": 4,
+          "heroId": 129,
+          "user": {
+            "id": "121806344",
+            "personaName": "PieLieDie"
+          }
+        },
+        {
+          "slot": 128,
+          "heroId": 75,
+          "user": {
+            "id": "128888618",
+            "personaName": "Dendi"
+          }
+        },
+        {
+          "slot": 129,
+          "heroId": 5,
+          "user": {
+            "id": "53780187",
+            "personaName": "Akke"
+          }
+        },
+        {
+          "slot": 130,
+          "heroId": 41,
+          "user": {
+            "id": "76209261",
+            "personaName": "Babolord"
+          }
+        },
+        {
+          "slot": 131,
+          "heroId": 10,
+          "user": {
+            "id": "121099589",
+            "personaName": "S4"
+          }
+        },
+        {
+          "slot": 132,
+          "heroId": 101,
+          "user": {
+            "id": "98823456",
+            "personaName": "Chupapeng"
+          }
+        }
+      ]
+    }
+  ]
+}

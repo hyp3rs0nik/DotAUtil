@@ -1,0 +1,2858 @@
+[
+    {
+        "id": "5003",
+        "heroId": "1",
+        "name": "antimage_mana_break",
+        "localizedName": "Mana Break"
+    },
+    {
+        "id": "5004",
+        "heroId": "1",
+        "name": "antimage_blink",
+        "localizedName": "Blink"
+    },
+    {
+        "id": "5005",
+        "heroId": "1",
+        "name": "antimage_spell_shield",
+        "localizedName": "Spell Shield"
+    },
+    {
+        "id": "5006",
+        "heroId": "1",
+        "name": "antimage_mana_void",
+        "localizedName": "Mana Void"
+    },
+    {
+        "id": "5007",
+        "heroId": "2",
+        "name": "axe_berserkers_call",
+        "localizedName": "Berserker's Call"
+    },
+    {
+        "id": "5008",
+        "heroId": "2",
+        "name": "axe_battle_hunger",
+        "localizedName": "Battle Hunger"
+    },
+    {
+        "id": "5009",
+        "heroId": "2",
+        "name": "axe_counter_helix",
+        "localizedName": "Counter Helix"
+    },
+    {
+        "id": "5010",
+        "heroId": "2",
+        "name": "axe_culling_blade",
+        "localizedName": "Culling Blade"
+    },
+    {
+        "id": "5012",
+        "heroId": "3",
+        "name": "bane_enfeeble",
+        "localizedName": "Enfeeble"
+    },
+    {
+        "id": "5011",
+        "heroId": "3",
+        "name": "bane_brain_sap",
+        "localizedName": "Brain Sap"
+    },
+    {
+        "id": "5013",
+        "heroId": "3",
+        "name": "bane_fiends_grip",
+        "localizedName": "Fiend's Grip"
+    },
+    {
+        "id": "5014",
+        "heroId": "3",
+        "name": "bane_nightmare",
+        "localizedName": "Nightmare"
+    },
+    {
+        "id": "5523",
+        "heroId": "3",
+        "name": "bane_nightmare_end",
+        "localizedName": "Nightmare End"
+    },
+    {
+        "id": "5015",
+        "heroId": "4",
+        "name": "bloodseeker_bloodrage",
+        "localizedName": "Bloodrage"
+    },
+    {
+        "id": "5016",
+        "heroId": "4",
+        "name": "bloodseeker_blood_bath",
+        "localizedName": "Blood Bath"
+    },
+    {
+        "id": "5017",
+        "heroId": "4",
+        "name": "bloodseeker_thirst",
+        "localizedName": "Thirst"
+    },
+    {
+        "id": "5018",
+        "heroId": "4",
+        "name": "bloodseeker_rupture",
+        "localizedName": "Rupture"
+    },
+    {
+        "id": "5019",
+        "heroId": "6",
+        "name": "drow_ranger_frost_arrows",
+        "localizedName": "Frost Arrows"
+    },
+    {
+        "id": "5632",
+        "heroId": "6",
+        "name": "drow_ranger_wave_of_silence",
+        "localizedName": "Gust"
+    },
+    {
+        "id": "5021",
+        "heroId": "6",
+        "name": "drow_ranger_trueshot",
+        "localizedName": "Precision Aura"
+    },
+    {
+        "id": "5022",
+        "heroId": "6",
+        "name": "drow_ranger_marksmanship",
+        "localizedName": "Marksmanship"
+    },
+    {
+        "id": "5023",
+        "heroId": "7",
+        "name": "earthshaker_fissure",
+        "localizedName": "Fissure"
+    },
+    {
+        "id": "5024",
+        "heroId": "7",
+        "name": "earthshaker_enchant_totem",
+        "localizedName": "Enchant Totem"
+    },
+    {
+        "id": "5025",
+        "heroId": "7",
+        "name": "earthshaker_aftershock",
+        "localizedName": "Aftershock"
+    },
+    {
+        "id": "5026",
+        "heroId": "7",
+        "name": "earthshaker_echo_slam",
+        "localizedName": "Echo Slam"
+    },
+    {
+        "id": "5027",
+        "heroId": "8",
+        "name": "juggernaut_blade_dance",
+        "localizedName": "Blade Dance"
+    },
+    {
+        "id": "5028",
+        "heroId": "8",
+        "name": "juggernaut_blade_fury",
+        "localizedName": "Blade Fury"
+    },
+    {
+        "id": "5029",
+        "heroId": "8",
+        "name": "juggernaut_healing_ward",
+        "localizedName": "Healing Ward"
+    },
+    {
+        "id": "5030",
+        "heroId": "8",
+        "name": "juggernaut_omni_slash",
+        "localizedName": "Omnislash"
+    },
+    {
+        "id": "5031",
+        "heroId": "23",
+        "name": "kunkka_torrent",
+        "localizedName": "Torrent"
+    },
+    {
+        "id": "5032",
+        "heroId": "23",
+        "name": "kunkka_tidebringer",
+        "localizedName": "Tidebringer"
+    },
+    {
+        "id": "5033",
+        "heroId": "23",
+        "name": "kunkka_x_marks_the_spot",
+        "localizedName": "X Marks the Spot"
+    },
+    {
+        "id": "5034",
+        "heroId": "23",
+        "name": "kunkka_return",
+        "localizedName": "Return"
+    },
+    {
+        "id": "5035",
+        "heroId": "23",
+        "name": "kunkka_ghostship",
+        "localizedName": "Ghostship"
+    },
+    {
+        "id": "5040",
+        "heroId": "25",
+        "name": "lina_dragon_slave",
+        "localizedName": "Dragon Slave"
+    },
+    {
+        "id": "5041",
+        "heroId": "25",
+        "name": "lina_light_strike_array",
+        "localizedName": "Light Strike Array"
+    },
+    {
+        "id": "5042",
+        "heroId": "25",
+        "name": "lina_fiery_soul",
+        "localizedName": "Fiery Soul"
+    },
+    {
+        "id": "5043",
+        "heroId": "25",
+        "name": "lina_laguna_blade",
+        "localizedName": "Laguna Blade"
+    },
+    {
+        "id": "5044",
+        "heroId": "26",
+        "name": "lion_impale",
+        "localizedName": "Earth Spike"
+    },
+    {
+        "id": "5045",
+        "heroId": "26",
+        "name": "lion_voodoo",
+        "localizedName": "Hex"
+    },
+    {
+        "id": "5046",
+        "heroId": "26",
+        "name": "lion_mana_drain",
+        "localizedName": "Mana Drain"
+    },
+    {
+        "id": "5047",
+        "heroId": "26",
+        "name": "lion_finger_of_death",
+        "localizedName": "Finger of Death"
+    },
+    {
+        "id": "5048",
+        "heroId": "9",
+        "name": "mirana_arrow",
+        "localizedName": "Sacred Arrow"
+    },
+    {
+        "id": "5049",
+        "heroId": "9",
+        "name": "mirana_invis",
+        "localizedName": "Moonlight Shadow"
+    },
+    {
+        "id": "5050",
+        "heroId": "9",
+        "name": "mirana_leap",
+        "localizedName": "Leap"
+    },
+    {
+        "id": "5051",
+        "heroId": "9",
+        "name": "mirana_starfall",
+        "localizedName": "Starstorm"
+    },
+    {
+        "id": "5052",
+        "heroId": "10",
+        "name": "morphling_waveform",
+        "localizedName": "Waveform"
+    },
+    {
+        "id": "5053",
+        "heroId": "10",
+        "name": "morphling_adaptive_strike",
+        "localizedName": "Adaptive Strike"
+    },
+    {
+        "id": "5055",
+        "heroId": "10",
+        "name": "morphling_morph_agi",
+        "localizedName": "Morph (Agility Gain)"
+    },
+    {
+        "id": "5056",
+        "heroId": "10",
+        "name": "morphling_morph_str",
+        "localizedName": "Morph (Strength Gain)"
+    },
+    {
+        "id": "5057",
+        "heroId": "10",
+        "name": "morphling_replicate",
+        "localizedName": "Replicate"
+    },
+    {
+        "id": "5058",
+        "heroId": "10",
+        "name": "morphling_morph_replicate",
+        "localizedName": "Morph Replicate"
+    },
+    {
+        "id": "5059",
+        "heroId": "11",
+        "name": "nevermore_shadowraze1",
+        "localizedName": "Shadowraze"
+    },
+    {
+        "id": "5060",
+        "heroId": "11",
+        "name": "nevermore_shadowraze2",
+        "localizedName": "Shadowraze"
+    },
+    {
+        "id": "5061",
+        "heroId": "11",
+        "name": "nevermore_shadowraze3",
+        "localizedName": "Shadowraze"
+    },
+    {
+        "id": "5062",
+        "heroId": "11",
+        "name": "nevermore_necromastery",
+        "localizedName": "Necromastery"
+    },
+    {
+        "id": "5063",
+        "heroId": "11",
+        "name": "nevermore_dark_lord",
+        "localizedName": "Presence of the Dark Lord"
+    },
+    {
+        "id": "5064",
+        "heroId": "11",
+        "name": "nevermore_requiem",
+        "localizedName": "Requiem of Souls"
+    },
+    {
+        "id": "5065",
+        "heroId": "12",
+        "name": "phantom_lancer_spirit_lance",
+        "localizedName": "Spirit Lance"
+    },
+    {
+        "id": "5066",
+        "heroId": "12",
+        "name": "phantom_lancer_doppelwalk",
+        "localizedName": "Doppelwalk"
+    },
+    {
+        "id": "5067",
+        "heroId": "12",
+        "name": "phantom_lancer_juxtapose",
+        "localizedName": "Juxtapose"
+    },
+    {
+        "id": "5068",
+        "heroId": "12",
+        "name": "phantom_lancer_phantom_edge",
+        "localizedName": "Phantom Edge"
+    },
+    {
+        "id": "5069",
+        "heroId": "13",
+        "name": "puck_illusory_orb",
+        "localizedName": "Illusory Orb"
+    },
+    {
+        "id": "5070",
+        "heroId": "13",
+        "name": "puck_ethereal_jaunt",
+        "localizedName": "Ethereal Jaunt"
+    },
+    {
+        "id": "5071",
+        "heroId": "13",
+        "name": "puck_waning_rift",
+        "localizedName": "Waning Rift"
+    },
+    {
+        "id": "5072",
+        "heroId": "13",
+        "name": "puck_phase_shift",
+        "localizedName": "Phase Shift"
+    },
+    {
+        "id": "5073",
+        "heroId": "13",
+        "name": "puck_dream_coil",
+        "localizedName": "Dream Coil"
+    },
+    {
+        "id": "5074",
+        "heroId": "14",
+        "name": "pudge_flesh_heap",
+        "localizedName": "Flesh Heap"
+    },
+    {
+        "id": "5075",
+        "heroId": "14",
+        "name": "pudge_meat_hook",
+        "localizedName": "Meat Hook"
+    },
+    {
+        "id": "5076",
+        "heroId": "14",
+        "name": "pudge_rot",
+        "localizedName": "Rot"
+    },
+    {
+        "id": "5077",
+        "heroId": "14",
+        "name": "pudge_dismember",
+        "localizedName": "Dismember"
+    },
+    {
+        "id": "5078",
+        "heroId": "27",
+        "name": "shadow_shaman_ether_shock",
+        "localizedName": "Ether Shock"
+    },
+    {
+        "id": "5079",
+        "heroId": "27",
+        "name": "shadow_shaman_voodoo",
+        "localizedName": "Hex"
+    },
+    {
+        "id": "5080",
+        "heroId": "27",
+        "name": "shadow_shaman_shackles",
+        "localizedName": "Shackles"
+    },
+    {
+        "id": "5081",
+        "heroId": "27",
+        "name": "shadow_shaman_mass_serpent_ward",
+        "localizedName": "Mass Serpent Ward"
+    },
+    {
+        "id": "5082",
+        "heroId": "15",
+        "name": "razor_plasma_field",
+        "localizedName": "Plasma Field"
+    },
+    {
+        "id": "5083",
+        "heroId": "15",
+        "name": "razor_static_link",
+        "localizedName": "Static Link"
+    },
+    {
+        "id": "5084",
+        "heroId": "15",
+        "name": "razor_unstable_current",
+        "localizedName": "Unstable Current"
+    },
+    {
+        "id": "5085",
+        "heroId": "15",
+        "name": "razor_eye_of_the_storm",
+        "localizedName": "Eye of the Storm"
+    },
+    {
+        "id": "5086",
+        "heroId": "42",
+        "name": "skeleton_king_hellfire_blast",
+        "localizedName": "Wraithfire Blast"
+    },
+    {
+        "id": "5087",
+        "heroId": "42",
+        "name": "skeleton_king_vampiric_aura",
+        "localizedName": "Vampiric Aura"
+    },
+    {
+        "id": "5088",
+        "heroId": "42",
+        "name": "skeleton_king_mortal_strike",
+        "localizedName": "Mortal Strike"
+    },
+    {
+        "id": "5089",
+        "heroId": "42",
+        "name": "skeleton_king_reincarnation",
+        "localizedName": "Reincarnation"
+    },
+    {
+        "id": "5090",
+        "heroId": "43",
+        "name": "death_prophet_carrion_swarm",
+        "localizedName": "Crypt Swarm"
+    },
+    {
+        "id": "5091",
+        "heroId": "43",
+        "name": "death_prophet_silence",
+        "localizedName": "Silence"
+    },
+    {
+        "id": "5092",
+        "heroId": "43",
+        "name": "death_prophet_witchcraft",
+        "localizedName": "Witchcraft"
+    },
+    {
+        "id": "5093",
+        "heroId": "43",
+        "name": "death_prophet_exorcism",
+        "localizedName": "Exorcism"
+    },
+    {
+        "id": "5094",
+        "heroId": "18",
+        "name": "sven_storm_bolt",
+        "localizedName": "Storm Hammer"
+    },
+    {
+        "id": "5095",
+        "heroId": "18",
+        "name": "sven_great_cleave",
+        "localizedName": "Great Cleave"
+    },
+    {
+        "id": "5096",
+        "heroId": "18",
+        "name": "sven_warcry",
+        "localizedName": "Warcry"
+    },
+    {
+        "id": "5097",
+        "heroId": "18",
+        "name": "sven_gods_strength",
+        "localizedName": "God's Strength"
+    },
+    {
+        "id": "5098",
+        "heroId": "17",
+        "name": "storm_spirit_static_remnant",
+        "localizedName": "Static Remnant"
+    },
+    {
+        "id": "5099",
+        "heroId": "17",
+        "name": "storm_spirit_electric_vortex",
+        "localizedName": "Electric Vortex"
+    },
+    {
+        "id": "5100",
+        "heroId": "17",
+        "name": "storm_spirit_overload",
+        "localizedName": "Overload"
+    },
+    {
+        "id": "5101",
+        "heroId": "17",
+        "name": "storm_spirit_ball_lightning",
+        "localizedName": "Ball Lightning"
+    },
+    {
+        "id": "5102",
+        "heroId": "16",
+        "name": "sandking_burrowstrike",
+        "localizedName": "Burrowstrike"
+    },
+    {
+        "id": "5103",
+        "heroId": "16",
+        "name": "sandking_sand_storm",
+        "localizedName": "Sand Storm"
+    },
+    {
+        "id": "5104",
+        "heroId": "16",
+        "name": "sandking_caustic_finale",
+        "localizedName": "Caustic Finale"
+    },
+    {
+        "id": "5105",
+        "heroId": "16",
+        "name": "sandking_epicenter",
+        "localizedName": "Epicenter"
+    },
+    {
+        "id": "5106",
+        "heroId": "19",
+        "name": "tiny_avalanche",
+        "localizedName": "Avalanche"
+    },
+    {
+        "id": "5107",
+        "heroId": "19",
+        "name": "tiny_toss",
+        "localizedName": "Toss"
+    },
+    {
+        "id": "5108",
+        "heroId": "19",
+        "name": "tiny_craggy_exterior",
+        "localizedName": "Craggy Exterior"
+    },
+    {
+        "id": "5109",
+        "heroId": "19",
+        "name": "tiny_grow",
+        "localizedName": "Grow"
+    },
+    {
+        "id": "5110",
+        "heroId": "22",
+        "name": "zuus_arc_lightning",
+        "localizedName": "Arc Lightning"
+    },
+    {
+        "id": "5111",
+        "heroId": "22",
+        "name": "zuus_lightning_bolt",
+        "localizedName": "Lightning Bolt"
+    },
+    {
+        "id": "5112",
+        "heroId": "22",
+        "name": "zuus_static_field",
+        "localizedName": "Static Field"
+    },
+    {
+        "id": "5113",
+        "heroId": "22",
+        "name": "zuus_thundergods_wrath",
+        "localizedName": "Thundergod's Wrath"
+    },
+    {
+        "id": "5114",
+        "heroId": "28",
+        "name": "slardar_sprint",
+        "localizedName": "Sprint"
+    },
+    {
+        "id": "5115",
+        "heroId": "28",
+        "name": "slardar_slithereen_crush",
+        "localizedName": "Slithereen Crush"
+    },
+    {
+        "id": "5116",
+        "heroId": "28",
+        "name": "slardar_bash",
+        "localizedName": "Bash"
+    },
+    {
+        "id": "5117",
+        "heroId": "28",
+        "name": "slardar_amplify_damage",
+        "localizedName": "Amplify Damage"
+    },
+    {
+        "id": "5118",
+        "heroId": "29",
+        "name": "tidehunter_gush",
+        "localizedName": "Gush"
+    },
+    {
+        "id": "5119",
+        "heroId": "29",
+        "name": "tidehunter_kraken_shell",
+        "localizedName": "Kraken Shell"
+    },
+    {
+        "id": "5120",
+        "heroId": "29",
+        "name": "tidehunter_anchor_smash",
+        "localizedName": "Anchor Smash"
+    },
+    {
+        "id": "5121",
+        "heroId": "29",
+        "name": "tidehunter_ravage",
+        "localizedName": "Ravage"
+    },
+    {
+        "id": "5122",
+        "heroId": "20",
+        "name": "vengefulspirit_magic_missile",
+        "localizedName": "Magic Missile"
+    },
+    {
+        "id": "5123",
+        "heroId": "20",
+        "name": "vengefulspirit_command_aura",
+        "localizedName": "Vengeance Aura"
+    },
+    {
+        "id": "5124",
+        "heroId": "20",
+        "name": "vengefulspirit_wave_of_terror",
+        "localizedName": "Wave of Terror"
+    },
+    {
+        "id": "5125",
+        "heroId": "20",
+        "name": "vengefulspirit_nether_swap",
+        "localizedName": "Nether Swap"
+    },
+    {
+        "id": "5126",
+        "heroId": "5",
+        "name": "crystal_maiden_crystal_nova",
+        "localizedName": "Crystal Nova"
+    },
+    {
+        "id": "5127",
+        "heroId": "5",
+        "name": "crystal_maiden_frostbite",
+        "localizedName": "Frostbite"
+    },
+    {
+        "id": "5128",
+        "heroId": "5",
+        "name": "crystal_maiden_brilliance_aura",
+        "localizedName": "Arcane Aura"
+    },
+    {
+        "id": "5129",
+        "heroId": "5",
+        "name": "crystal_maiden_freezing_field",
+        "localizedName": "Freezing Field"
+    },
+    {
+        "id": "5130",
+        "heroId": "21",
+        "name": "windrunner_shackleshot",
+        "localizedName": "Shackleshot"
+    },
+    {
+        "id": "5131",
+        "heroId": "21",
+        "name": "windrunner_powershot",
+        "localizedName": "Powershot"
+    },
+    {
+        "id": "5132",
+        "heroId": "21",
+        "name": "windrunner_windrun",
+        "localizedName": "Windrun"
+    },
+    {
+        "id": "5133",
+        "heroId": "21",
+        "name": "windrunner_focusfire",
+        "localizedName": "Focus Fire"
+    },
+    {
+        "id": "5134",
+        "heroId": "31",
+        "name": "lich_frost_nova",
+        "localizedName": "Frost Blast"
+    },
+    {
+        "id": "5135",
+        "heroId": "31",
+        "name": "lich_frost_armor",
+        "localizedName": "Ice Armor"
+    },
+    {
+        "id": "5136",
+        "heroId": "31",
+        "name": "lich_dark_ritual",
+        "localizedName": "Sacrifice"
+    },
+    {
+        "id": "5137",
+        "heroId": "31",
+        "name": "lich_chain_frost",
+        "localizedName": "Chain Frost"
+    },
+    {
+        "id": "5138",
+        "heroId": "30",
+        "name": "witch_doctor_paralyzing_cask",
+        "localizedName": "Paralyzing Cask"
+    },
+    {
+        "id": "5139",
+        "heroId": "30",
+        "name": "witch_doctor_voodoo_restoration",
+        "localizedName": "Voodoo Restoration"
+    },
+    {
+        "id": "5140",
+        "heroId": "30",
+        "name": "witch_doctor_maledict",
+        "localizedName": "Maledict"
+    },
+    {
+        "id": "5141",
+        "heroId": "30",
+        "name": "witch_doctor_death_ward",
+        "localizedName": "Death Ward"
+    },
+    {
+        "id": "5142",
+        "heroId": "32",
+        "name": "riki_smoke_screen",
+        "localizedName": "Smoke Screen"
+    },
+    {
+        "id": "5143",
+        "heroId": "32",
+        "name": "riki_blink_strike",
+        "localizedName": "Blink Strike"
+    },
+    {
+        "id": "5144",
+        "heroId": "32",
+        "name": "riki_backstab",
+        "localizedName": "Backstab"
+    },
+    {
+        "id": "5145",
+        "heroId": "32",
+        "name": "riki_permanent_invisibility",
+        "localizedName": "Permanent Invisibility"
+    },
+    {
+        "id": "5146",
+        "heroId": "33",
+        "name": "enigma_malefice",
+        "localizedName": "Malefice"
+    },
+    {
+        "id": "5147",
+        "heroId": "33",
+        "name": "enigma_demonic_conversion",
+        "localizedName": "Demonic Conversion"
+    },
+    {
+        "id": "5148",
+        "heroId": "33",
+        "name": "enigma_midnight_pulse",
+        "localizedName": "Midnight Pulse"
+    },
+    {
+        "id": "5149",
+        "heroId": "33",
+        "name": "enigma_black_hole",
+        "localizedName": "Black Hole"
+    },
+    {
+        "id": "5150",
+        "heroId": "34",
+        "name": "tinker_laser",
+        "localizedName": "Laser"
+    },
+    {
+        "id": "5151",
+        "heroId": "34",
+        "name": "tinker_heat_seeking_missile",
+        "localizedName": "Heat-Seeking Missile"
+    },
+    {
+        "id": "5152",
+        "heroId": "34",
+        "name": "tinker_march_of_the_machines",
+        "localizedName": "March of the Machines"
+    },
+    {
+        "id": "5153",
+        "heroId": "34",
+        "name": "tinker_rearm",
+        "localizedName": "Rearm"
+    },
+    {
+        "id": "5154",
+        "heroId": "35",
+        "name": "sniper_shrapnel",
+        "localizedName": "Shrapnel"
+    },
+    {
+        "id": "5155",
+        "heroId": "35",
+        "name": "sniper_headshot",
+        "localizedName": "Headshot"
+    },
+    {
+        "id": "5156",
+        "heroId": "35",
+        "name": "sniper_take_aim",
+        "localizedName": "Take Aim"
+    },
+    {
+        "id": "5157",
+        "heroId": "35",
+        "name": "sniper_assassinate",
+        "localizedName": "Assassinate"
+    },
+    {
+        "id": "5158",
+        "heroId": "36",
+        "name": "necrolyte_death_pulse",
+        "localizedName": "Death Pulse"
+    },
+    {
+        "id": "5159",
+        "heroId": "36",
+        "name": "necrolyte_heartstopper_aura",
+        "localizedName": "Heartstopper Aura"
+    },
+    {
+        "id": "5160",
+        "heroId": "36",
+        "name": "necrolyte_sadist",
+        "localizedName": "Sadist"
+    },
+    {
+        "id": "5161",
+        "heroId": "36",
+        "name": "necrolyte_reapers_scythe",
+        "localizedName": "Reaper's Scythe"
+    },
+    {
+        "id": "5162",
+        "heroId": "37",
+        "name": "warlock_fatal_bonds",
+        "localizedName": "Fatal Bonds"
+    },
+    {
+        "id": "5163",
+        "heroId": "37",
+        "name": "warlock_shadow_word",
+        "localizedName": "Shadow Word"
+    },
+    {
+        "id": "5164",
+        "heroId": "37",
+        "name": "warlock_upheaval",
+        "localizedName": "Upheaval"
+    },
+    {
+        "id": "5165",
+        "heroId": "37",
+        "name": "warlock_rain_of_chaos",
+        "localizedName": "Chaotic Offering"
+    },
+    {
+        "id": "5168",
+        "heroId": "38",
+        "name": "beastmaster_wild_axes",
+        "localizedName": "Wild Axes"
+    },
+    {
+        "id": "5169",
+        "heroId": "38",
+        "name": "beastmaster_call_of_the_wild",
+        "localizedName": "Call of the Wild"
+    },
+    {
+        "id": "5580",
+        "heroId": "38",
+        "name": "beastmaster_call_of_the_wild_boar",
+        "localizedName": "Call of the Wild"
+    },
+    {
+        "id": "5172",
+        "heroId": "38",
+        "name": "beastmaster_inner_beast",
+        "localizedName": "Inner Beast"
+    },
+    {
+        "id": "5177",
+        "heroId": "38",
+        "name": "beastmaster_primal_roar",
+        "localizedName": "Primal Roar"
+    },
+    {
+        "id": "5173",
+        "heroId": "39",
+        "name": "queenofpain_shadow_strike",
+        "localizedName": "Shadow Strike"
+    },
+    {
+        "id": "5174",
+        "heroId": "39",
+        "name": "queenofpain_blink",
+        "localizedName": "Blink"
+    },
+    {
+        "id": "5175",
+        "heroId": "39",
+        "name": "queenofpain_scream_of_pain",
+        "localizedName": "Scream Of Pain"
+    },
+    {
+        "id": "5176",
+        "heroId": "39",
+        "name": "queenofpain_sonic_wave",
+        "localizedName": "Sonic Wave"
+    },
+    {
+        "id": "5178",
+        "heroId": "40",
+        "name": "venomancer_venomous_gale",
+        "localizedName": "Venomous Gale"
+    },
+    {
+        "id": "5179",
+        "heroId": "40",
+        "name": "venomancer_poison_sting",
+        "localizedName": "Poison Sting"
+    },
+    {
+        "id": "5180",
+        "heroId": "40",
+        "name": "venomancer_plague_ward",
+        "localizedName": "Plague Ward"
+    },
+    {
+        "id": "5181",
+        "heroId": "40",
+        "name": "venomancer_poison_nova",
+        "localizedName": "Poison Nova"
+    },
+    {
+        "id": "5182",
+        "heroId": "41",
+        "name": "faceless_void_time_walk",
+        "localizedName": "Time Walk"
+    },
+    {
+        "id": "5183",
+        "heroId": "41",
+        "name": "faceless_void_backtrack",
+        "localizedName": "Backtrack"
+    },
+    {
+        "id": "5184",
+        "heroId": "41",
+        "name": "faceless_void_time_lock",
+        "localizedName": "Time Lock"
+    },
+    {
+        "id": "5185",
+        "heroId": "41",
+        "name": "faceless_void_chronosphere",
+        "localizedName": "Chronosphere"
+    },
+    {
+        "id": "5186",
+        "heroId": "45",
+        "name": "pugna_nether_blast",
+        "localizedName": "Nether Blast"
+    },
+    {
+        "id": "5187",
+        "heroId": "45",
+        "name": "pugna_decrepify",
+        "localizedName": "Decrepify"
+    },
+    {
+        "id": "5188",
+        "heroId": "45",
+        "name": "pugna_nether_ward",
+        "localizedName": "Nether Ward"
+    },
+    {
+        "id": "5189",
+        "heroId": "45",
+        "name": "pugna_life_drain",
+        "localizedName": "Life Drain"
+    },
+    {
+        "id": "5190",
+        "heroId": "44",
+        "name": "phantom_assassin_stifling_dagger",
+        "localizedName": "Stifling Dagger"
+    },
+    {
+        "id": "5191",
+        "heroId": "44",
+        "name": "phantom_assassin_phantom_strike",
+        "localizedName": "Phantom Strike"
+    },
+    {
+        "id": "5192",
+        "heroId": "44",
+        "name": "phantom_assassin_blur",
+        "localizedName": "Blur"
+    },
+    {
+        "id": "5193",
+        "heroId": "44",
+        "name": "phantom_assassin_coup_de_grace",
+        "localizedName": "Coup de Grace"
+    },
+    {
+        "id": "5194",
+        "heroId": "46",
+        "name": "templar_assassin_refraction",
+        "localizedName": "Refraction"
+    },
+    {
+        "id": "5195",
+        "heroId": "46",
+        "name": "templar_assassin_meld",
+        "localizedName": "Meld"
+    },
+    {
+        "id": "5196",
+        "heroId": "46",
+        "name": "templar_assassin_psi_blades",
+        "localizedName": "Psi Blades"
+    },
+    {
+        "id": "5197",
+        "heroId": "46",
+        "name": "templar_assassin_psionic_trap",
+        "localizedName": "Psionic Trap"
+    },
+    {
+        "id": "5198",
+        "heroId": "46",
+        "name": "templar_assassin_trap",
+        "localizedName": "Trap"
+    },
+    {
+        "id": "5218",
+        "heroId": "47",
+        "name": "viper_poison_attack",
+        "localizedName": "Poison Attack"
+    },
+    {
+        "id": "5219",
+        "heroId": "47",
+        "name": "viper_nethertoxin",
+        "localizedName": "Nethertoxin"
+    },
+    {
+        "id": "5220",
+        "heroId": "47",
+        "name": "viper_corrosive_skin",
+        "localizedName": "Corrosive Skin"
+    },
+    {
+        "id": "5221",
+        "heroId": "47",
+        "name": "viper_viper_strike",
+        "localizedName": "Viper Strike"
+    },
+    {
+        "id": "5222",
+        "heroId": "48",
+        "name": "luna_lucent_beam",
+        "localizedName": "Lucent Beam"
+    },
+    {
+        "id": "5223",
+        "heroId": "48",
+        "name": "luna_moon_glaive",
+        "localizedName": "Moon Glaive"
+    },
+    {
+        "id": "5224",
+        "heroId": "48",
+        "name": "luna_lunar_blessing",
+        "localizedName": "Lunar Blessing"
+    },
+    {
+        "id": "5225",
+        "heroId": "48",
+        "name": "luna_eclipse",
+        "localizedName": "Eclipse"
+    },
+    {
+        "id": "5226",
+        "heroId": "49",
+        "name": "dragon_knight_breathe_fire",
+        "localizedName": "Breathe Fire"
+    },
+    {
+        "id": "5227",
+        "heroId": "49",
+        "name": "dragon_knight_dragon_tail",
+        "localizedName": "Dragon Tail"
+    },
+    {
+        "id": "5228",
+        "heroId": "49",
+        "name": "dragon_knight_dragon_blood",
+        "localizedName": "Dragon Blood"
+    },
+    {
+        "id": "5229",
+        "heroId": "49",
+        "name": "dragon_knight_elder_dragon_form",
+        "localizedName": "Elder Dragon Form"
+    },
+    {
+        "id": "5233",
+        "heroId": "50",
+        "name": "dazzle_poison_touch",
+        "localizedName": "Poison Touch"
+    },
+    {
+        "id": "5234",
+        "heroId": "50",
+        "name": "dazzle_shallow_grave",
+        "localizedName": "Shallow Grave"
+    },
+    {
+        "id": "5235",
+        "heroId": "50",
+        "name": "dazzle_shadow_wave",
+        "localizedName": "Shadow Wave"
+    },
+    {
+        "id": "5236",
+        "heroId": "50",
+        "name": "dazzle_weave",
+        "localizedName": "Weave"
+    },
+    {
+        "id": "5237",
+        "heroId": "51",
+        "name": "rattletrap_battery_assault",
+        "localizedName": "Battery Assault"
+    },
+    {
+        "id": "5238",
+        "heroId": "51",
+        "name": "rattletrap_power_cogs",
+        "localizedName": "Power Cogs"
+    },
+    {
+        "id": "5239",
+        "heroId": "51",
+        "name": "rattletrap_rocket_flare",
+        "localizedName": "Rocket Flare"
+    },
+    {
+        "id": "5240",
+        "heroId": "51",
+        "name": "rattletrap_hookshot",
+        "localizedName": "Hookshot"
+    },
+    {
+        "id": "5241",
+        "heroId": "52",
+        "name": "leshrac_split_earth",
+        "localizedName": "Split Earth"
+    },
+    {
+        "id": "5242",
+        "heroId": "52",
+        "name": "leshrac_diabolic_edict",
+        "localizedName": "Diabolic Edict"
+    },
+    {
+        "id": "5243",
+        "heroId": "52",
+        "name": "leshrac_lightning_storm",
+        "localizedName": "Lightning Storm"
+    },
+    {
+        "id": "5244",
+        "heroId": "52",
+        "name": "leshrac_pulse_nova",
+        "localizedName": "Pulse Nova"
+    },
+    {
+        "id": "5245",
+        "heroId": "53",
+        "name": "furion_sprout",
+        "localizedName": "Sprout"
+    },
+    {
+        "id": "5246",
+        "heroId": "53",
+        "name": "furion_teleportation",
+        "localizedName": "Teleportation"
+    },
+    {
+        "id": "5247",
+        "heroId": "53",
+        "name": "furion_force_of_nature",
+        "localizedName": "Nature's Call"
+    },
+    {
+        "id": "5248",
+        "heroId": "53",
+        "name": "furion_wrath_of_nature",
+        "localizedName": "Wrath of Nature"
+    },
+    {
+        "id": "5249",
+        "heroId": "54",
+        "name": "life_stealer_rage",
+        "localizedName": "Rage"
+    },
+    {
+        "id": "5250",
+        "heroId": "54",
+        "name": "life_stealer_feast",
+        "localizedName": "Feast"
+    },
+    {
+        "id": "5251",
+        "heroId": "54",
+        "name": "life_stealer_open_wounds",
+        "localizedName": "Open Wounds"
+    },
+    {
+        "id": "5252",
+        "heroId": "54",
+        "name": "life_stealer_infest",
+        "localizedName": "Infest"
+    },
+    {
+        "id": "5253",
+        "heroId": "54",
+        "name": "life_stealer_consume",
+        "localizedName": "Consume"
+    },
+    {
+        "id": "5255",
+        "heroId": "55",
+        "name": "dark_seer_vacuum",
+        "localizedName": "Vacuum"
+    },
+    {
+        "id": "5256",
+        "heroId": "55",
+        "name": "dark_seer_ion_shell",
+        "localizedName": "Ion Shell"
+    },
+    {
+        "id": "5257",
+        "heroId": "55",
+        "name": "dark_seer_surge",
+        "localizedName": "Surge"
+    },
+    {
+        "id": "5258",
+        "heroId": "55",
+        "name": "dark_seer_wall_of_replica",
+        "localizedName": "Wall of Replica"
+    },
+    {
+        "id": "5259",
+        "heroId": "56",
+        "name": "clinkz_strafe",
+        "localizedName": "Strafe"
+    },
+    {
+        "id": "5260",
+        "heroId": "56",
+        "name": "clinkz_searing_arrows",
+        "localizedName": "Searing Arrows"
+    },
+    {
+        "id": "5261",
+        "heroId": "56",
+        "name": "clinkz_wind_walk",
+        "localizedName": "Skeleton Walk"
+    },
+    {
+        "id": "5262",
+        "heroId": "56",
+        "name": "clinkz_death_pact",
+        "localizedName": "Death Pact"
+    },
+    {
+        "id": "5263",
+        "heroId": "57",
+        "name": "omniknight_purification",
+        "localizedName": "Purification"
+    },
+    {
+        "id": "5264",
+        "heroId": "57",
+        "name": "omniknight_repel",
+        "localizedName": "Repel"
+    },
+    {
+        "id": "5265",
+        "heroId": "57",
+        "name": "omniknight_degen_aura",
+        "localizedName": "Degen Aura"
+    },
+    {
+        "id": "5266",
+        "heroId": "57",
+        "name": "omniknight_guardian_angel",
+        "localizedName": "Guardian Angel"
+    },
+    {
+        "id": "5267",
+        "heroId": "58",
+        "name": "enchantress_untouchable",
+        "localizedName": "Untouchable"
+    },
+    {
+        "id": "5268",
+        "heroId": "58",
+        "name": "enchantress_enchant",
+        "localizedName": "Enchant"
+    },
+    {
+        "id": "5269",
+        "heroId": "58",
+        "name": "enchantress_natures_attendants",
+        "localizedName": "Nature's Attendants"
+    },
+    {
+        "id": "5270",
+        "heroId": "58",
+        "name": "enchantress_impetus",
+        "localizedName": "Impetus"
+    },
+    {
+        "id": "5271",
+        "heroId": "59",
+        "name": "huskar_inner_vitality",
+        "localizedName": "Inner Vitality"
+    },
+    {
+        "id": "5272",
+        "heroId": "59",
+        "name": "huskar_burning_spear",
+        "localizedName": "Burning Spear"
+    },
+    {
+        "id": "5273",
+        "heroId": "59",
+        "name": "huskar_berserkers_blood",
+        "localizedName": "Berserker's Blood"
+    },
+    {
+        "id": "5274",
+        "heroId": "59",
+        "name": "huskar_life_break",
+        "localizedName": "Life Break"
+    },
+    {
+        "id": "5275",
+        "heroId": "60",
+        "name": "night_stalker_void",
+        "localizedName": "Void"
+    },
+    {
+        "id": "5276",
+        "heroId": "60",
+        "name": "night_stalker_crippling_fear",
+        "localizedName": "Crippling Fear"
+    },
+    {
+        "id": "5277",
+        "heroId": "60",
+        "name": "night_stalker_hunter_in_the_night",
+        "localizedName": "Hunter in the Night"
+    },
+    {
+        "id": "5278",
+        "heroId": "60",
+        "name": "night_stalker_darkness",
+        "localizedName": "Darkness"
+    },
+    {
+        "id": "5279",
+        "heroId": "61",
+        "name": "broodmother_spawn_spiderlings",
+        "localizedName": "Spawn Spiderlings"
+    },
+    {
+        "id": "5280",
+        "heroId": "61",
+        "name": "broodmother_spin_web",
+        "localizedName": "Spin Web"
+    },
+    {
+        "id": "5281",
+        "heroId": "61",
+        "name": "broodmother_incapacitating_bite",
+        "localizedName": "Incapacitating Bite"
+    },
+    {
+        "id": "5282",
+        "heroId": "61",
+        "name": "broodmother_insatiable_hunger",
+        "localizedName": "Insatiable Hunger"
+    },
+    {
+        "id": "5285",
+        "heroId": "62",
+        "name": "bounty_hunter_shuriken_toss",
+        "localizedName": "Shuriken Toss"
+    },
+    {
+        "id": "5286",
+        "heroId": "62",
+        "name": "bounty_hunter_jinada",
+        "localizedName": "Jinada"
+    },
+    {
+        "id": "5287",
+        "heroId": "62",
+        "name": "bounty_hunter_wind_walk",
+        "localizedName": "Shadow Walk"
+    },
+    {
+        "id": "5288",
+        "heroId": "62",
+        "name": "bounty_hunter_track",
+        "localizedName": "Track"
+    },
+    {
+        "id": "5289",
+        "heroId": "63",
+        "name": "weaver_the_swarm",
+        "localizedName": "The Swarm"
+    },
+    {
+        "id": "5290",
+        "heroId": "63",
+        "name": "weaver_shukuchi",
+        "localizedName": "Shukuchi"
+    },
+    {
+        "id": "5291",
+        "heroId": "63",
+        "name": "weaver_geminate_attack",
+        "localizedName": "Geminate Attack"
+    },
+    {
+        "id": "5292",
+        "heroId": "63",
+        "name": "weaver_time_lapse",
+        "localizedName": "Time Lapse"
+    },
+    {
+        "id": "5297",
+        "heroId": "64",
+        "name": "jakiro_dual_breath",
+        "localizedName": "Dual Breath"
+    },
+    {
+        "id": "5298",
+        "heroId": "64",
+        "name": "jakiro_ice_path",
+        "localizedName": "Ice Path"
+    },
+    {
+        "id": "5299",
+        "heroId": "64",
+        "name": "jakiro_liquid_fire",
+        "localizedName": "Liquid Fire"
+    },
+    {
+        "id": "5300",
+        "heroId": "64",
+        "name": "jakiro_macropyre",
+        "localizedName": "Macropyre"
+    },
+    {
+        "id": "5320",
+        "heroId": "65",
+        "name": "batrider_sticky_napalm",
+        "localizedName": "Sticky Napalm"
+    },
+    {
+        "id": "5321",
+        "heroId": "65",
+        "name": "batrider_flamebreak",
+        "localizedName": "Flamebreak"
+    },
+    {
+        "id": "5322",
+        "heroId": "65",
+        "name": "batrider_firefly",
+        "localizedName": "Firefly"
+    },
+    {
+        "id": "5323",
+        "heroId": "65",
+        "name": "batrider_flaming_lasso",
+        "localizedName": "Flaming Lasso"
+    },
+    {
+        "id": "5328",
+        "heroId": "66",
+        "name": "chen_penitence",
+        "localizedName": "Penitence"
+    },
+    {
+        "id": "5329",
+        "heroId": "66",
+        "name": "chen_test_of_faith",
+        "localizedName": "Test of Faith"
+    },
+    {
+        "id": "5522",
+        "heroId": "66",
+        "name": "chen_test_of_faith_teleport",
+        "localizedName": "Test of Faith"
+    },
+    {
+        "id": "5330",
+        "heroId": "66",
+        "name": "chen_holy_persuasion",
+        "localizedName": "Holy Persuasion"
+    },
+    {
+        "id": "5331",
+        "heroId": "66",
+        "name": "chen_hand_of_god",
+        "localizedName": "Hand of God"
+    },
+    {
+        "id": "5334",
+        "heroId": "67",
+        "name": "spectre_spectral_dagger",
+        "localizedName": "Spectral Dagger"
+    },
+    {
+        "id": "5335",
+        "heroId": "67",
+        "name": "spectre_desolate",
+        "localizedName": "Desolate"
+    },
+    {
+        "id": "5336",
+        "heroId": "67",
+        "name": "spectre_dispersion",
+        "localizedName": "Dispersion"
+    },
+    {
+        "id": "5337",
+        "heroId": "67",
+        "name": "spectre_haunt",
+        "localizedName": "Haunt"
+    },
+    {
+        "id": "5338",
+        "heroId": "67",
+        "name": "spectre_reality",
+        "localizedName": "Reality"
+    },
+    {
+        "id": "5339",
+        "heroId": "69",
+        "name": "doom_bringer_devour",
+        "localizedName": "Devour"
+    },
+    {
+        "id": "5340",
+        "heroId": "69",
+        "name": "doom_bringer_scorched_earth",
+        "localizedName": "Scorched Earth"
+    },
+    {
+        "id": "5341",
+        "heroId": "69",
+        "name": "doom_bringer_lvl_death",
+        "localizedName": "LVL? Death"
+    },
+    {
+        "id": "5342",
+        "heroId": "69",
+        "name": "doom_bringer_doom",
+        "localizedName": "Doom"
+    },
+    {
+        "id": "5345",
+        "heroId": "68",
+        "name": "ancient_apparition_cold_feet",
+        "localizedName": "Cold Feet"
+    },
+    {
+        "id": "5346",
+        "heroId": "68",
+        "name": "ancient_apparition_ice_vortex",
+        "localizedName": "Ice Vortex"
+    },
+    {
+        "id": "5347",
+        "heroId": "68",
+        "name": "ancient_apparition_chilling_touch",
+        "localizedName": "Chilling Touch"
+    },
+    {
+        "id": "5348",
+        "heroId": "68",
+        "name": "ancient_apparition_ice_blast",
+        "localizedName": "Ice Blast"
+    },
+    {
+        "id": "5349",
+        "heroId": "68",
+        "name": "ancient_apparition_ice_blast_release",
+        "localizedName": "Release"
+    },
+    {
+        "id": "5353",
+        "heroId": "71",
+        "name": "spirit_breaker_charge_of_darkness",
+        "localizedName": "Charge of Darkness"
+    },
+    {
+        "id": "5354",
+        "heroId": "71",
+        "name": "spirit_breaker_empowering_haste",
+        "localizedName": "Empowering Haste"
+    },
+    {
+        "id": "5355",
+        "heroId": "71",
+        "name": "spirit_breaker_greater_bash",
+        "localizedName": "Greater Bash"
+    },
+    {
+        "id": "5356",
+        "heroId": "71",
+        "name": "spirit_breaker_nether_strike",
+        "localizedName": "Nether Strike"
+    },
+    {
+        "id": "5357",
+        "heroId": "70",
+        "name": "ursa_earthshock",
+        "localizedName": "Earthshock"
+    },
+    {
+        "id": "5358",
+        "heroId": "70",
+        "name": "ursa_overpower",
+        "localizedName": "Overpower"
+    },
+    {
+        "id": "5359",
+        "heroId": "70",
+        "name": "ursa_fury_swipes",
+        "localizedName": "Fury Swipes"
+    },
+    {
+        "id": "5360",
+        "heroId": "70",
+        "name": "ursa_enrage",
+        "localizedName": "Enrage"
+    },
+    {
+        "id": "5361",
+        "heroId": "72",
+        "name": "gyrocopter_rocket_barrage",
+        "localizedName": "Rocket Barrage"
+    },
+    {
+        "id": "5362",
+        "heroId": "72",
+        "name": "gyrocopter_homing_missile",
+        "localizedName": "Homing Missile"
+    },
+    {
+        "id": "5363",
+        "heroId": "72",
+        "name": "gyrocopter_flak_cannon",
+        "localizedName": "Flak Cannon"
+    },
+    {
+        "id": "5364",
+        "heroId": "72",
+        "name": "gyrocopter_call_down",
+        "localizedName": "Call Down"
+    },
+    {
+        "id": "5365",
+        "heroId": "73",
+        "name": "alchemist_acid_spray",
+        "localizedName": "Acid Spray"
+    },
+    {
+        "id": "5366",
+        "heroId": "73",
+        "name": "alchemist_unstable_concoction",
+        "localizedName": "Unstable Concoction"
+    },
+    {
+        "id": "5367",
+        "heroId": "73",
+        "name": "alchemist_unstable_concoction_throw",
+        "localizedName": "Unstable Concoction Throw"
+    },
+    {
+        "id": "5368",
+        "heroId": "73",
+        "name": "alchemist_goblins_greed",
+        "localizedName": "Greevil's Greed"
+    },
+    {
+        "id": "5369",
+        "heroId": "73",
+        "name": "alchemist_chemical_rage",
+        "localizedName": "Chemical Rage"
+    },
+    {
+        "id": "5370",
+        "heroId": "74",
+        "name": "invoker_quas",
+        "localizedName": "Quas"
+    },
+    {
+        "id": "5371",
+        "heroId": "74",
+        "name": "invoker_wex",
+        "localizedName": "Wex"
+    },
+    {
+        "id": "5372",
+        "heroId": "74",
+        "name": "invoker_exort",
+        "localizedName": "Exort"
+    },
+    {
+        "id": "5375",
+        "heroId": "74",
+        "name": "invoker_invoke",
+        "localizedName": "Invoke"
+    },
+    {
+        "id": "5376",
+        "heroId": "74",
+        "name": "invoker_cold_snap",
+        "localizedName": "Cold Snap"
+    },
+    {
+        "id": "5381",
+        "heroId": "74",
+        "name": "invoker_ghost_walk",
+        "localizedName": "Ghost Walk"
+    },
+    {
+        "id": "5382",
+        "heroId": "74",
+        "name": "invoker_tornado",
+        "localizedName": "Tornado"
+    },
+    {
+        "id": "5383",
+        "heroId": "74",
+        "name": "invoker_emp",
+        "localizedName": "EMP"
+    },
+    {
+        "id": "5384",
+        "heroId": "74",
+        "name": "invoker_alacrity",
+        "localizedName": "Alacrity"
+    },
+    {
+        "id": "5385",
+        "heroId": "74",
+        "name": "invoker_chaos_meteor",
+        "localizedName": "Chaos Meteor"
+    },
+    {
+        "id": "5386",
+        "heroId": "74",
+        "name": "invoker_sun_strike",
+        "localizedName": "Sun Strike"
+    },
+    {
+        "id": "5387",
+        "heroId": "74",
+        "name": "invoker_forge_spirit",
+        "localizedName": "Forge Spirit"
+    },
+    {
+        "id": "5389",
+        "heroId": "74",
+        "name": "invoker_ice_wall",
+        "localizedName": "Ice Wall"
+    },
+    {
+        "id": "5390",
+        "heroId": "74",
+        "name": "invoker_deafening_blast",
+        "localizedName": "Deafening Blast"
+    },
+    {
+        "id": "5377",
+        "heroId": "75",
+        "name": "silencer_curse_of_the_silent",
+        "localizedName": "Curse of the Silent"
+    },
+    {
+        "id": "5378",
+        "heroId": "75",
+        "name": "silencer_glaives_of_wisdom",
+        "localizedName": "Glaives of Wisdom"
+    },
+    {
+        "id": "5379",
+        "heroId": "75",
+        "name": "silencer_last_word",
+        "localizedName": "Last Word"
+    },
+    {
+        "id": "5380",
+        "heroId": "75",
+        "name": "silencer_global_silence",
+        "localizedName": "Global Silence"
+    },
+    {
+        "id": "5391",
+        "heroId": "76",
+        "name": "obsidian_destroyer_arcane_orb",
+        "localizedName": "Arcane Orb"
+    },
+    {
+        "id": "5392",
+        "heroId": "76",
+        "name": "obsidian_destroyer_astral_imprisonment",
+        "localizedName": "Astral Imprisonment"
+    },
+    {
+        "id": "5393",
+        "heroId": "76",
+        "name": "obsidian_destroyer_essence_aura",
+        "localizedName": "Essence Aura"
+    },
+    {
+        "id": "5394",
+        "heroId": "76",
+        "name": "obsidian_destroyer_sanity_eclipse",
+        "localizedName": "Sanity's Eclipse"
+    },
+    {
+        "id": "5395",
+        "heroId": "77",
+        "name": "lycan_summon_wolves",
+        "localizedName": "Summon Wolves"
+    },
+    {
+        "id": "5396",
+        "heroId": "77",
+        "name": "lycan_howl",
+        "localizedName": "Howl"
+    },
+    {
+        "id": "5397",
+        "heroId": "77",
+        "name": "lycan_feral_impulse",
+        "localizedName": "Feral Impulse"
+    },
+    {
+        "id": "5398",
+        "heroId": "77",
+        "name": "lycan_shapeshift",
+        "localizedName": "Shapeshift"
+    },
+    {
+        "id": "5412",
+        "heroId": "80",
+        "name": "lone_druid_spirit_bear",
+        "localizedName": "Summon Spirit Bear"
+    },
+    {
+        "id": "5413",
+        "heroId": "80",
+        "name": "lone_druid_rabid",
+        "localizedName": "Rabid"
+    },
+    {
+        "id": "5414",
+        "heroId": "80",
+        "name": "lone_druid_synergy",
+        "localizedName": "Synergy"
+    },
+    {
+        "id": "5415",
+        "heroId": "80",
+        "name": "lone_druid_true_form",
+        "localizedName": "True Form"
+    },
+    {
+        "id": "5416",
+        "heroId": "80",
+        "name": "lone_druid_true_form_druid",
+        "localizedName": "Druid Form"
+    },
+    {
+        "id": "5417",
+        "heroId": "80",
+        "name": "lone_druid_true_form_battle_cry",
+        "localizedName": "Battle Cry"
+    },
+    {
+        "id": "5400",
+        "heroId": "78",
+        "name": "brewmaster_thunder_clap",
+        "localizedName": "Thunder Clap"
+    },
+    {
+        "id": "5401",
+        "heroId": "78",
+        "name": "brewmaster_drunken_haze",
+        "localizedName": "Drunken Haze"
+    },
+    {
+        "id": "5402",
+        "heroId": "78",
+        "name": "brewmaster_drunken_brawler",
+        "localizedName": "Drunken Brawler"
+    },
+    {
+        "id": "5403",
+        "heroId": "78",
+        "name": "brewmaster_primal_split",
+        "localizedName": "Primal Split"
+    },
+    {
+        "id": "5421",
+        "heroId": "79",
+        "name": "shadow_demon_disruption",
+        "localizedName": "Disruption"
+    },
+    {
+        "id": "5422",
+        "heroId": "79",
+        "name": "shadow_demon_soul_catcher",
+        "localizedName": "Soul Catcher"
+    },
+    {
+        "id": "5423",
+        "heroId": "79",
+        "name": "shadow_demon_shadow_poison",
+        "localizedName": "Shadow Poison"
+    },
+    {
+        "id": "5424",
+        "heroId": "79",
+        "name": "shadow_demon_shadow_poison_release",
+        "localizedName": "Shadow Poison Release"
+    },
+    {
+        "id": "5425",
+        "heroId": "79",
+        "name": "shadow_demon_demonic_purge",
+        "localizedName": "Demonic Purge"
+    },
+    {
+        "id": "5426",
+        "heroId": "81",
+        "name": "chaos_knight_chaos_bolt",
+        "localizedName": "Chaos Bolt"
+    },
+    {
+        "id": "5427",
+        "heroId": "81",
+        "name": "chaos_knight_reality_rift",
+        "localizedName": "Reality Rift"
+    },
+    {
+        "id": "5428",
+        "heroId": "81",
+        "name": "chaos_knight_chaos_strike",
+        "localizedName": "Chaos Strike"
+    },
+    {
+        "id": "5429",
+        "heroId": "81",
+        "name": "chaos_knight_phantasm",
+        "localizedName": "Phantasm"
+    },
+    {
+        "id": "5430",
+        "heroId": "82",
+        "name": "meepo_earthbind",
+        "localizedName": "Earthbind"
+    },
+    {
+        "id": "5431",
+        "heroId": "82",
+        "name": "meepo_poof",
+        "localizedName": "Poof"
+    },
+    {
+        "id": "5432",
+        "heroId": "82",
+        "name": "meepo_geostrike",
+        "localizedName": "Geostrike"
+    },
+    {
+        "id": "5433",
+        "heroId": "82",
+        "name": "meepo_divided_we_stand",
+        "localizedName": "Divided We Stand"
+    },
+    {
+        "id": "5434",
+        "heroId": "83",
+        "name": "treant_natures_guise",
+        "localizedName": "Nature's Guise"
+    },
+    {
+        "id": "5435",
+        "heroId": "83",
+        "name": "treant_leech_seed",
+        "localizedName": "Leech Seed"
+    },
+    {
+        "id": "5436",
+        "heroId": "83",
+        "name": "treant_living_armor",
+        "localizedName": "Living Armor"
+    },
+    {
+        "id": "5437",
+        "heroId": "83",
+        "name": "treant_overgrowth",
+        "localizedName": "Overgrowth"
+    },
+    {
+        "id": "5438",
+        "heroId": "84",
+        "name": "ogre_magi_fireblast",
+        "localizedName": "Fireblast"
+    },
+    {
+        "id": "5466",
+        "heroId": "84",
+        "name": "ogre_magi_unrefined_fireblast",
+        "localizedName": "Unrefined Fireblast"
+    },
+    {
+        "id": "5439",
+        "heroId": "84",
+        "name": "ogre_magi_ignite",
+        "localizedName": "Ignite"
+    },
+    {
+        "id": "5440",
+        "heroId": "84",
+        "name": "ogre_magi_bloodlust",
+        "localizedName": "Bloodlust"
+    },
+    {
+        "id": "5441",
+        "heroId": "84",
+        "name": "ogre_magi_multicast",
+        "localizedName": "Multicast"
+    },
+    {
+        "id": "5442",
+        "heroId": "85",
+        "name": "undying_decay",
+        "localizedName": "Decay"
+    },
+    {
+        "id": "5443",
+        "heroId": "85",
+        "name": "undying_soul_rip",
+        "localizedName": "Soul Rip"
+    },
+    {
+        "id": "5444",
+        "heroId": "85",
+        "name": "undying_tombstone",
+        "localizedName": "Tombstone"
+    },
+    {
+        "id": "5447",
+        "heroId": "85",
+        "name": "undying_flesh_golem",
+        "localizedName": "Flesh Golem"
+    },
+    {
+        "id": "5448",
+        "heroId": "86",
+        "name": "rubick_telekinesis",
+        "localizedName": "Telekinesis"
+    },
+    {
+        "id": "5449",
+        "heroId": "86",
+        "name": "rubick_telekinesis_land",
+        "localizedName": "Telekinesis Land"
+    },
+    {
+        "id": "5450",
+        "heroId": "86",
+        "name": "rubick_fade_bolt",
+        "localizedName": "Fade Bolt"
+    },
+    {
+        "id": "5451",
+        "heroId": "86",
+        "name": "rubick_null_field",
+        "localizedName": "Null Field"
+    },
+    {
+        "id": "5452",
+        "heroId": "86",
+        "name": "rubick_spell_steal",
+        "localizedName": "Spell Steal"
+    },
+    {
+        "id": "5458",
+        "heroId": "87",
+        "name": "disruptor_thunder_strike",
+        "localizedName": "Thunder Strike"
+    },
+    {
+        "id": "5459",
+        "heroId": "87",
+        "name": "disruptor_glimpse",
+        "localizedName": "Glimpse"
+    },
+    {
+        "id": "5460",
+        "heroId": "87",
+        "name": "disruptor_kinetic_field",
+        "localizedName": "Kinetic Field"
+    },
+    {
+        "id": "5461",
+        "heroId": "87",
+        "name": "disruptor_static_storm",
+        "localizedName": "Static Storm"
+    },
+    {
+        "id": "5462",
+        "heroId": "88",
+        "name": "nyx_assassin_impale",
+        "localizedName": "Impale"
+    },
+    {
+        "id": "5463",
+        "heroId": "88",
+        "name": "nyx_assassin_mana_burn",
+        "localizedName": "Mana Burn"
+    },
+    {
+        "id": "5464",
+        "heroId": "88",
+        "name": "nyx_assassin_spiked_carapace",
+        "localizedName": "Spiked Carapace"
+    },
+    {
+        "id": "5465",
+        "heroId": "88",
+        "name": "nyx_assassin_vendetta",
+        "localizedName": "Vendetta"
+    },
+    {
+        "id": "5467",
+        "heroId": "89",
+        "name": "naga_siren_mirror_image",
+        "localizedName": "Mirror Image"
+    },
+    {
+        "id": "5468",
+        "heroId": "89",
+        "name": "naga_siren_ensnare",
+        "localizedName": "Ensnare"
+    },
+    {
+        "id": "5469",
+        "heroId": "89",
+        "name": "naga_siren_rip_tide",
+        "localizedName": "Rip Tide"
+    },
+    {
+        "id": "5470",
+        "heroId": "89",
+        "name": "naga_siren_song_of_the_siren",
+        "localizedName": "Song of the Siren"
+    },
+    {
+        "id": "5478",
+        "heroId": "89",
+        "name": "naga_siren_song_of_the_siren_cancel",
+        "localizedName": "Song of the Siren Cancel"
+    },
+    {
+        "id": "5471",
+        "heroId": "90",
+        "name": "keeper_of_the_light_illuminate",
+        "localizedName": "Illuminate"
+    },
+    {
+        "id": "5472",
+        "heroId": "90",
+        "name": "keeper_of_the_light_mana_leak",
+        "localizedName": "Mana Leak"
+    },
+    {
+        "id": "5473",
+        "heroId": "90",
+        "name": "keeper_of_the_light_chakra_magic",
+        "localizedName": "Chakra Magic"
+    },
+    {
+        "id": "5474",
+        "heroId": "90",
+        "name": "keeper_of_the_light_spirit_form",
+        "localizedName": "Spirit Form"
+    },
+    {
+        "id": "5475",
+        "heroId": "90",
+        "name": "keeper_of_the_light_recall",
+        "localizedName": "Recall"
+    },
+    {
+        "id": "5476",
+        "heroId": "90",
+        "name": "keeper_of_the_light_blinding_light",
+        "localizedName": "Blinding Light"
+    },
+    {
+        "id": "5477",
+        "heroId": "90",
+        "name": "keeper_of_the_light_illuminate_end",
+        "localizedName": "Release Illuminate"
+    },
+    {
+        "id": "5479",
+        "heroId": "90",
+        "name": "keeper_of_the_light_spirit_form_illuminate",
+        "localizedName": "Illuminate"
+    },
+    {
+        "id": "5503",
+        "heroId": "90",
+        "name": "keeper_of_the_light_spirit_form_illuminate_end",
+        "localizedName": "Release Illuminate"
+    },
+    {
+        "id": "5480",
+        "heroId": "92",
+        "name": "visage_grave_chill",
+        "localizedName": "Grave Chill"
+    },
+    {
+        "id": "5481",
+        "heroId": "92",
+        "name": "visage_soul_assumption",
+        "localizedName": "Soul Assumption"
+    },
+    {
+        "id": "5482",
+        "heroId": "92",
+        "name": "visage_gravekeepers_cloak",
+        "localizedName": "Gravekeeper's Cloak"
+    },
+    {
+        "id": "5483",
+        "heroId": "92",
+        "name": "visage_summon_familiars",
+        "localizedName": "Summon Familiars"
+    },
+    {
+        "id": "5485",
+        "heroId": "91",
+        "name": "wisp_tether",
+        "localizedName": "Tether"
+    },
+    {
+        "id": "5486",
+        "heroId": "91",
+        "name": "wisp_spirits",
+        "localizedName": "Spirits"
+    },
+    {
+        "id": "5487",
+        "heroId": "91",
+        "name": "wisp_overcharge",
+        "localizedName": "Overcharge"
+    },
+    {
+        "id": "5488",
+        "heroId": "91",
+        "name": "wisp_relocate",
+        "localizedName": "Relocate"
+    },
+    {
+        "id": "5489",
+        "heroId": "91",
+        "name": "wisp_tether_break",
+        "localizedName": "Break Tether"
+    },
+    {
+        "id": "5490",
+        "heroId": "91",
+        "name": "wisp_spirits_in",
+        "localizedName": "Spirits In"
+    },
+    {
+        "id": "5493",
+        "heroId": "91",
+        "name": "wisp_spirits_out",
+        "localizedName": "Spirits Out"
+    },
+    {
+        "id": "5494",
+        "heroId": "93",
+        "name": "slark_dark_pact",
+        "localizedName": "Dark Pact"
+    },
+    {
+        "id": "5495",
+        "heroId": "93",
+        "name": "slark_pounce",
+        "localizedName": "Pounce"
+    },
+    {
+        "id": "5496",
+        "heroId": "93",
+        "name": "slark_essence_shift",
+        "localizedName": "Essence Shift"
+    },
+    {
+        "id": "5497",
+        "heroId": "93",
+        "name": "slark_shadow_dance",
+        "localizedName": "Shadow Dance"
+    },
+    {
+        "id": "5504",
+        "heroId": "94",
+        "name": "medusa_split_shot",
+        "localizedName": "Split Shot"
+    },
+    {
+        "id": "5505",
+        "heroId": "94",
+        "name": "medusa_mystic_snake",
+        "localizedName": "Mystic Snake"
+    },
+    {
+        "id": "5506",
+        "heroId": "94",
+        "name": "medusa_mana_shield",
+        "localizedName": "Mana Shield"
+    },
+    {
+        "id": "5507",
+        "heroId": "94",
+        "name": "medusa_stone_gaze",
+        "localizedName": "Stone Gaze"
+    },
+    {
+        "id": "5508",
+        "heroId": "95",
+        "name": "troll_warlord_berserkers_rage",
+        "localizedName": "Berserker's Rage"
+    },
+    {
+        "id": "5509",
+        "heroId": "95",
+        "name": "troll_warlord_whirling_axes_ranged",
+        "localizedName": "Whirling Axes (Ranged)"
+    },
+    {
+        "id": "5510",
+        "heroId": "95",
+        "name": "troll_warlord_whirling_axes_melee",
+        "localizedName": "Whirling Axes (Melee)"
+    },
+    {
+        "id": "5511",
+        "heroId": "95",
+        "name": "troll_warlord_fervor",
+        "localizedName": "Fervor"
+    },
+    {
+        "id": "5512",
+        "heroId": "95",
+        "name": "troll_warlord_battle_trance",
+        "localizedName": "Battle Trance"
+    },
+    {
+        "id": "5514",
+        "heroId": "96",
+        "name": "centaur_hoof_stomp",
+        "localizedName": "Hoof Stomp"
+    },
+    {
+        "id": "5515",
+        "heroId": "96",
+        "name": "centaur_double_edge",
+        "localizedName": "Double Edge"
+    },
+    {
+        "id": "5516",
+        "heroId": "96",
+        "name": "centaur_return",
+        "localizedName": "Return"
+    },
+    {
+        "id": "5517",
+        "heroId": "96",
+        "name": "centaur_stampede",
+        "localizedName": "Stampede"
+    },
+    {
+        "id": "5518",
+        "heroId": "97",
+        "name": "magnataur_shockwave",
+        "localizedName": "Shockwave"
+    },
+    {
+        "id": "5519",
+        "heroId": "97",
+        "name": "magnataur_empower",
+        "localizedName": "Empower"
+    },
+    {
+        "id": "5520",
+        "heroId": "97",
+        "name": "magnataur_skewer",
+        "localizedName": "Skewer"
+    },
+    {
+        "id": "5521",
+        "heroId": "97",
+        "name": "magnataur_reverse_polarity",
+        "localizedName": "Reverse Polarity"
+    },
+    {
+        "id": "5524",
+        "heroId": "98",
+        "name": "shredder_whirling_death",
+        "localizedName": "Whirling Death"
+    },
+    {
+        "id": "5525",
+        "heroId": "98",
+        "name": "shredder_timber_chain",
+        "localizedName": "Timber Chain"
+    },
+    {
+        "id": "5526",
+        "heroId": "98",
+        "name": "shredder_reactive_armor",
+        "localizedName": "Reactive Armor"
+    },
+    {
+        "id": "5527",
+        "heroId": "98",
+        "name": "shredder_chakram",
+        "localizedName": "Chakram"
+    },
+    {
+        "id": "5528",
+        "heroId": "98",
+        "name": "shredder_return_chakram",
+        "localizedName": "Return Chakram"
+    },
+    {
+        "id": "5548",
+        "heroId": "99",
+        "name": "bristleback_viscous_nasal_goo",
+        "localizedName": "Viscous Nasal Goo"
+    },
+    {
+        "id": "5549",
+        "heroId": "99",
+        "name": "bristleback_quill_spray",
+        "localizedName": "Quill Spray"
+    },
+    {
+        "id": "5550",
+        "heroId": "99",
+        "name": "bristleback_bristleback",
+        "localizedName": "Bristleback"
+    },
+    {
+        "id": "5551",
+        "heroId": "99",
+        "name": "bristleback_warpath",
+        "localizedName": "Warpath"
+    },
+    {
+        "id": "5565",
+        "heroId": "100",
+        "name": "tusk_ice_shards",
+        "localizedName": "Ice Shards"
+    },
+    {
+        "id": "5566",
+        "heroId": "100",
+        "name": "tusk_snowball",
+        "localizedName": "Snowball"
+    },
+    {
+        "id": "5567",
+        "heroId": "100",
+        "name": "tusk_frozen_sigil",
+        "localizedName": "Frozen Sigil"
+    },
+    {
+        "id": "5568",
+        "heroId": "100",
+        "name": "tusk_walrus_punch",
+        "localizedName": "Walrus PUNCH!"
+    },
+    {
+        "id": "5581",
+        "heroId": "101",
+        "name": "skywrath_mage_arcane_bolt",
+        "localizedName": "Arcane Bolt"
+    },
+    {
+        "id": "5582",
+        "heroId": "101",
+        "name": "skywrath_mage_concussive_shot",
+        "localizedName": "Concussive Shot"
+    },
+    {
+        "id": "5583",
+        "heroId": "101",
+        "name": "skywrath_mage_ancient_seal",
+        "localizedName": "Ancient Seal"
+    },
+    {
+        "id": "5584",
+        "heroId": "101",
+        "name": "skywrath_mage_mystic_flare",
+        "localizedName": "Mystic Flare"
+    },
+    {
+        "id": "5585",
+        "heroId": "102",
+        "name": "abaddon_death_coil",
+        "localizedName": "Mist Coil"
+    },
+    {
+        "id": "5586",
+        "heroId": "102",
+        "name": "abaddon_aphotic_shield",
+        "localizedName": "Aphotic Shield"
+    },
+    {
+        "id": "5587",
+        "heroId": "102",
+        "name": "abaddon_frostmourne",
+        "localizedName": "Curse of Avernus"
+    },
+    {
+        "id": "5588",
+        "heroId": "102",
+        "name": "abaddon_borrowed_time",
+        "localizedName": "Borrowed Time"
+    },
+    {
+        "id": "5589",
+        "heroId": "103",
+        "name": "elder_titan_echo_stomp",
+        "localizedName": "Echo Stomp"
+    },
+    {
+        "id": "5591",
+        "heroId": "103",
+        "name": "elder_titan_ancestral_spirit",
+        "localizedName": "Astral Spirit"
+    },
+    {
+        "id": "5592",
+        "heroId": "103",
+        "name": "elder_titan_return_spirit",
+        "localizedName": "Return Astral Spirit"
+    },
+    {
+        "id": "5593",
+        "heroId": "103",
+        "name": "elder_titan_natural_order",
+        "localizedName": "Natural Order"
+    },
+    {
+        "id": "5594",
+        "heroId": "103",
+        "name": "elder_titan_earth_splitter",
+        "localizedName": "Earth Splitter"
+    },
+    {
+        "id": "5595",
+        "heroId": "104",
+        "name": "legion_commander_overwhelming_odds",
+        "localizedName": "Overwhelming Odds"
+    },
+    {
+        "id": "5596",
+        "heroId": "104",
+        "name": "legion_commander_press_the_attack",
+        "localizedName": "Press The Attack"
+    },
+    {
+        "id": "5597",
+        "heroId": "104",
+        "name": "legion_commander_moment_of_courage",
+        "localizedName": "Moment of Courage"
+    },
+    {
+        "id": "5598",
+        "heroId": "104",
+        "name": "legion_commander_duel",
+        "localizedName": "Duel"
+    },
+    {
+        "id": "5603",
+        "heroId": "106",
+        "name": "ember_spirit_searing_chains",
+        "localizedName": "Searing Chains"
+    },
+    {
+        "id": "5604",
+        "heroId": "106",
+        "name": "ember_spirit_sleight_of_fist",
+        "localizedName": "Sleight of Fist"
+    },
+    {
+        "id": "5605",
+        "heroId": "106",
+        "name": "ember_spirit_flame_guard",
+        "localizedName": "Flame Guard"
+    },
+    {
+        "id": "5606",
+        "heroId": "106",
+        "name": "ember_spirit_fire_remnant",
+        "localizedName": "Fire Remnant"
+    },
+    {
+        "id": "5607",
+        "heroId": "106",
+        "name": "ember_spirit_activate_fire_remnant",
+        "localizedName": "Activate Fire Remnant"
+    },
+    {
+        "id": "5608",
+        "heroId": "107",
+        "name": "earth_spirit_boulder_smash",
+        "localizedName": "Boulder Smash"
+    },
+    {
+        "id": "5609",
+        "heroId": "107",
+        "name": "earth_spirit_rolling_boulder",
+        "localizedName": "Rolling Boulder"
+    },
+    {
+        "id": "5610",
+        "heroId": "107",
+        "name": "earth_spirit_geomagnetic_grip",
+        "localizedName": "Geomagnetic Grip"
+    },
+    {
+        "id": "5611",
+        "heroId": "107",
+        "name": "earth_spirit_stone_caller",
+        "localizedName": "Stone Remnant"
+    },
+    {
+        "id": "5612",
+        "heroId": "107",
+        "name": "earth_spirit_magnetize",
+        "localizedName": "Magnetize"
+    },
+    {
+        "id": "5619",
+        "heroId": "109",
+        "name": "terrorblade_reflection",
+        "localizedName": "Reflection"
+    },
+    {
+        "id": "5620",
+        "heroId": "109",
+        "name": "terrorblade_conjure_image",
+        "localizedName": "Conjure Image"
+    },
+    {
+        "id": "5621",
+        "heroId": "109",
+        "name": "terrorblade_metamorphosis",
+        "localizedName": "Metamorphosis"
+    },
+    {
+        "id": "5622",
+        "heroId": "109",
+        "name": "terrorblade_sunder",
+        "localizedName": "Sunder"
+    },
+    {
+        "id": "5623",
+        "heroId": "110",
+        "name": "phoenix_icarus_dive",
+        "localizedName": "Icarus Dive"
+    },
+    {
+        "id": "5624",
+        "heroId": "110",
+        "name": "phoenix_icarus_dive_stop",
+        "localizedName": "Stop Icarus Dive"
+    },
+    {
+        "id": "5625",
+        "heroId": "110",
+        "name": "phoenix_fire_spirits",
+        "localizedName": "Fire Spirits"
+    },
+    {
+        "id": "5626",
+        "heroId": "110",
+        "name": "phoenix_sun_ray",
+        "localizedName": "Sun Ray"
+    },
+    {
+        "id": "5627",
+        "heroId": "110",
+        "name": "phoenix_sun_ray_stop",
+        "localizedName": "Stop Sun Ray"
+    },
+    {
+        "id": "5628",
+        "heroId": "110",
+        "name": "phoenix_sun_ray_toggle_move",
+        "localizedName": "Toggle Movement"
+    },
+    {
+        "id": "5629",
+        "heroId": "110",
+        "name": "phoenix_sun_ray_toggle_move_empty",
+        "localizedName": ""
+    },
+    {
+        "id": "5630",
+        "heroId": "110",
+        "name": "phoenix_supernova",
+        "localizedName": "Supernova"
+    },
+    {
+        "id": "5631",
+        "heroId": "110",
+        "name": "phoenix_launch_fire_spirit",
+        "localizedName": "Launch Fire Spirit"
+    }
+]

@@ -1,0 +1,17 @@
+desc 'Deploy to server using capistrano and push a Git tag'
+task :deploy do
+  ssh_key_file = "#{ENV['HOME']}/.ssh/besiera-root"
+
+  puts "Deploying commit on master branch"
+  puts "\n\n"
+
+  # Deploy
+  cmd = "cd capistrano; cap live deploy SSH_KEY=#{ssh_key_file}"
+  fail 'Deployment with capistrano failed' unless system(cmd)
+
+  puts "\n\n"
+  puts '-' * 80
+
+  puts "\nDone"
+end
+

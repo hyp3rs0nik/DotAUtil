@@ -1,0 +1,18 @@
+---
+# file: roles/python/tasks/main.yml
+
+- name: Install Python dev packages
+  apt: name={{ item }} state=present
+  with_items:
+    - python-setuptools
+    - python-dev
+
+- name: Install virtualenv
+  easy_install: name=virtualenv
+
+- name: Install pip
+  easy_install: name=pip
+
+- name: Install python-memcached
+  pip: name=python-memcached state=present
+

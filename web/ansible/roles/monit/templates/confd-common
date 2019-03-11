@@ -1,0 +1,37 @@
+# Managed by Ansible. Do not edit manually. 
+
+#
+# Monit config for Sentry server
+#
+
+set daemon 5
+set logfile /var/log/monit.log
+
+set mailserver smtp.mandrillapp.com port 587
+  username "hamaklabs@gmail.com" password "y91QDMTZxHw41_yB5LrjvA"
+  using hostname "besiera.info"
+set alert jayson@basanes.net with mail-format {
+  from: monit@besiera.info
+  subject: #{{ ansible_hostname }} $SERVICE $EVENT at $DATE
+}
+
+# necessary for "monit status" command to work
+set httpd port 2812 and use address localhost
+  allow localhost
+
+# cron
+################################################################################
+
+check process cron with pidfile /var/run/crond.pid
+  group system
+  start program = "/etc/init.d/cron start"
+  stop  program = "/etc/init.d/cron stop"
+  if 5 restarts within 5 cycles then timeout
+  depends on cron_rc
+
+check file cron_rc with path /etc/init.d/cron
+  group system
+  if failed checksum then unmonitor
+  if failed permission 755 then unmonitor
+  if failed uid root then unmonitor
+  if failed gid root then unmonitor

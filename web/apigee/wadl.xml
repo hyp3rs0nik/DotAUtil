@@ -1,0 +1,132 @@
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:apigee="http://api.apigee.com/wadl/2010/07/"
+  xmlns="http://wadl.dev.java.net/2009/02"
+  xsi:schemaLocation="http://wadl.dev.java.net/2009/02 http://apigee.com/schemas/wadl-schema.xsd http://api.apigee.com/wadl/2010/07/ http://apigee.com/schemas/apigee-wadl-extensions.xsd">
+  <resources base="http://besiera.info:3000">
+    <resource path="/heroes">
+      <method id="get.heroes" name="GET">
+        <apigee:tags>
+          <apigee:tag primary="true">Heroes</apigee:tag>
+        </apigee:tags>
+        <apigee:authentication required="false"/>
+        <apigee:example url="/heroes"/>
+        <doc>
+          Get list of heroes.
+        </doc>
+      </method>
+    </resource>
+    <resource path="/items">
+      <method id="get.items" name="GET">
+        <apigee:tags>
+          <apigee:tag primary="true">Items</apigee:tag>
+        </apigee:tags>
+        <apigee:authentication required="false"/>
+        <apigee:example url="/items"/>
+        <doc>
+          Get list of items.
+        </doc>
+      </method>
+    </resource>
+    <resource path="/users/{userId}">
+      <param name="userId" required="true" type="xsd:string" style="template">
+        <doc>The 32-bit user id</doc>
+      </param>
+      <method id="get.users.userId" name="GET">
+        <apigee:tags>
+          <apigee:tag primary="true">Users</apigee:tag>
+        </apigee:tags>
+        <apigee:authentication required="false"/>
+        <apigee:example url="/users/123333"/>
+        <doc>
+          Get full user info.
+        </doc>
+      </method>
+    </resource>
+
+    <resource path="/users/{userId}/matches">
+      <param name="userId" required="true" type="xsd:string" style="template">
+        <doc>The 32-bit user id</doc>
+      </param>
+      <param name="beforeId" required="false" type="xsd:int" style="query">
+        <doc>Start the search at the indicated match id, descending</doc>
+      </param>
+      <param name="count" required="false" type="xsd:int" style="query">
+        <doc>The number of matches to return. Defauls to 20.</doc>
+      </param>
+      <param name="heroId" required="false" type="xsd:int" style="query">
+        <doc>Only return matches with this hero.</doc>
+      </param>
+      <param name="leagueId" required="false" type="xsd:int" style="query">
+        <doc>Ony return matches for this league.</doc>
+      </param>
+      <method id="get.users.userId.matches" name="GET">
+        <apigee:tags>
+          <apigee:tag primary="true">Matches</apigee:tag>
+        </apigee:tags>
+        <apigee:authentication required="false"/>
+        <apigee:example url="/users/1133/matches"/>
+        <doc>
+          Get list of matches by the given user.
+        </doc>
+      </method>
+    </resource>
+    <resource path="/leagues/{leagueId}/matches">
+      <param name="leagueId" required="true" type="xsd:int" style="template">
+        <doc>The id of the league. See GET /leagues</doc>
+      </param>
+      <param name="beforeId" required="false" type="xsd:int" style="query">
+        <doc>Start the search at the indicated match id, descending</doc>
+      </param>
+      <param name="count" required="false" type="xsd:int" style="query">
+        <doc>The number of matches to return. Defauls to 20.</doc>
+      </param>
+      <param name="heroId" required="false" type="xsd:int" style="query">
+        <doc>Only return matches with this hero.</doc>
+      </param>
+      <param name="userId" required="false" type="xsd:string" style="query">
+        <doc>Ony return matches with this user (32 bit id).</doc>
+      </param>
+      <method id="get.leagues.leagueId.matches" name="GET">
+        <apigee:tags>
+          <apigee:tag primary="true">Matches</apigee:tag>
+        </apigee:tags>
+        <apigee:authentication required="false"/>
+        <apigee:example url="/leagues/1133/matches"/>
+        <doc>
+          Get list of matches in a league.
+        </doc>
+      </method>
+    </resource>
+
+    <resource path="/leagues">
+      <method id="get.leagues" name="GET">
+        <apigee:tags>
+          <apigee:tag primary="true">Leagues</apigee:tag>
+        </apigee:tags>
+        <apigee:authentication required="false"/>
+        <apigee:example url="/leagues"/>
+        <doc>
+          Used to get a list of the tournament leagues that are available for viewing in the client (i.e. you can buy a ticket to them).
+        </doc>
+      </method>
+    </resource>
+    <resource path="/matches/{matchId}">
+      <param name="matchId" required="true" type="xsd:string" style="template">
+        <doc>The id of the match.</doc>
+      </param>
+      <method id="get.matches.matchId" name="GET">
+        <apigee:tags>
+          <apigee:tag primary="true">Matches</apigee:tag>
+        </apigee:tags>
+        <apigee:authentication required="false"/>
+        <apigee:example url="/matches/1133"/>
+        <doc>
+          Get the details of a match.
+        </doc>
+      </method>
+    </resource>
+  </resources>
+
+</application>
+

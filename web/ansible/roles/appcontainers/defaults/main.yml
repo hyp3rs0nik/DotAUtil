@@ -1,0 +1,6 @@
+---
+# file: roles/appcontainers/vars/main.yml
+
+appcontainers_app_path: "{{ common_main_apps_basepath }}/mydota"
+appcontainers_gopath: "{{ common_main_apps_basepath }}/mydota/gopath"
+

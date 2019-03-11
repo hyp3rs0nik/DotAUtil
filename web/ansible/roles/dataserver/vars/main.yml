@@ -1,0 +1,6 @@
+---
+# file: roles/dataserver/vars/main.yml
+
+dataserver_postgresql_dbname: mydota
+dataserver_postgresql_username: mydota
+dataserver_postgresql_password: "ParticularlyCabinShoutShoe#!"

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background_holo_dark">#ff000000</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+    <color name="background_grey">#33cccccc</color>
+    <color name="background_light_grey">#ffdddddd</color>
+    <color name="grid_chart">#ffaaaaaa</color>
+    <color name="background_light_brown">#C15C3C</color>
+    <color name="backgroud_divider_list">#465163</color>
+    <color name="dark_blue">#282E3A</color>
+    <color name="dire_color">#c23c2a</color>
+    <color name="radiant_color">#51B785</color>
+</resources>

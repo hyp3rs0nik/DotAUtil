@@ -1,0 +1,6 @@
+---
+# file: roles/go/tasks/main.yml
+
+- name: Install go
+  apt: name=golang state=present
+

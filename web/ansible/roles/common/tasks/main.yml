@@ -1,0 +1,58 @@
+---
+# file: roles/common/tasks/main.yml
+
+- name: Set /etc/hostname
+  template: src=hostname dest=/etc/hostname backup=yes
+  when: hostname is defined
+  register: set_hostname
+
+- name: Set the hostname
+  shell: hostname -F /etc/hostname
+  when: hostname is defined and set_hostname.changed
+
+- name: Set /etc/hosts file for hostname
+  lineinfile: dest=/etc/hosts 
+              regexp='' 
+              insertafter=EOF
+              line="127.0.0.1 {{ hostname }}" 
+              backup=yes
+  when: hostname is defined
+
+- name: Install common packages
+  apt: name={{ item }} state=present
+  with_items:
+    - ntp
+    - sysstat
+    - git
+    - curl
+    - vim
+    - python-software-properties
+    - python-pycurl
+    - unzip
+    - tmpreaper
+    - apache2-utils
+    - htop
+    - upstart
+    - tree
+    - traceroute
+    - sshpass
+    - members
+    - acl
+
+# var/apps Have to be owned by root so ssh chroot in subdirs will work
+- name: Create {{ common_main_apps_basepath }} folder
+  file: path={{ common_main_apps_basepath }}
+        state=directory
+        owner=root 
+        group={{ common_server_default_group }}
+        mode=0755
+  when: common_main_apps_basepath is defined
+
+- name: Create {{ common_main_data_basepath }} folder
+  file: path={{ common_main_data_basepath }}
+        state=directory
+        owner=root 
+        group={{ common_server_default_group }}
+        mode=0755
+  when: common_main_data_basepath is defined
+

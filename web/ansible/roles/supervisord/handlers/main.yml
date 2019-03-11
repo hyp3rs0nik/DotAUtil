@@ -1,0 +1,11 @@
+---
+# file: roles/supervisord/handlers/main.yml
+
+- name: reread supervisorctl 
+  shell: supervisorctl reread && supervisorctl update
+
+
+
+
+
+

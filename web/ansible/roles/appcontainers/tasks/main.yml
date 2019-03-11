@@ -1,0 +1,13 @@
+---
+# file: roles/appcontainers/tasks/main.yml
+
+- name: Add {{ common_server_default_user }} to www-data
+  user: name={{ common_server_default_user }} groups="www-data" append=yes
+
+- name: Create app folder
+  file: path={{ appcontainers_app_path }}
+        state=directory 
+        owner=root
+        group={{ common_server_default_group }}
+        mode=0775
+  

@@ -1,0 +1,14 @@
+---
+# file: roles/supervisord/tasks/main.yml
+
+# Supervisord service is auto-started on install
+- name: Install supervisord
+  apt: name=supervisor state=present
+
+- name: Install sendmail (required by superlance)
+  apt: name=sendmail state=present
+
+# Email notifications for supervisord
+- name: Install superlance
+  pip: name=superlance
+

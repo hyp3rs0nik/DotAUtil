@@ -1,0 +1,2 @@
+leagues:
+  - {id: 1, name: "Davao DotA League", description: "Liga sa mga noobs.", tournament_url: "http://dota2.com"}

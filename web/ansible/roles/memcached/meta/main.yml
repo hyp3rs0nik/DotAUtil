@@ -1,0 +1,7 @@
+---
+# file: roles/memcached/meta/main.yml
+
+dependencies:
+  - { role: monit }
+
+

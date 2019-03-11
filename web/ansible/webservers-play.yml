@@ -1,0 +1,9 @@
+---
+# file: webservers-play.yml
+
+- hosts: webservers
+  sudo: yes
+  roles: 
+    - webservers
+
+

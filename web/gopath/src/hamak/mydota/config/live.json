@@ -1,0 +1,5 @@
+{
+  "resourcesPath": "/var/apps/mydota/gopath/bin/resources",
+  "dbConnectionString": "user=mydota password=ParticularlyCabinShoutShoe#! dbname=mydota sslmode=disable"
+}
+

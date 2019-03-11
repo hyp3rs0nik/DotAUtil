@@ -1,0 +1,10 @@
+bitbucket.org/liamstask/goose/cmd/goose: 44b2850c86e545b399675ab34cba95ed1ff1e13c
+github.com/jinzhu/copier: 0f5b379f2f7bd17b5e0e06904f6ca386996f9f5a
+github.com/jinzhu/gorm: dee9520d4e577f9963574f293f05b6f6e7cde99a
+github.com/jmcvetta/napping: d79ff5264da77f7048c6f5cbb273d51688df9423
+github.com/lann/squirrel: f1c5650cbd5ad7333b757df5f23bb1a3eea9e3b0
+github.com/robfig/cron: b024fc5ea0e34bc3f83d9941c8d60b0622bfaca4
+github.com/stretchr/testify: b641a3539ba5b6e1470224e8dbccd383936519b4
+github.com/zenazn/goji: 32da78b2dfeb2f5353e3b14a54a1b30d356e979c
+gopkg.in/fatih/set.v0: 57907de300222151a123d29255ed17f5ed43fad3
+gopkg.in/yaml.v1: 1b9791953ba4027efaeb728c7355e542a203be5e

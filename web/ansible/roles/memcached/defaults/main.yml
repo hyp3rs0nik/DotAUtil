@@ -1,0 +1,5 @@
+---
+# file: roles/memcached/defaults/main.yml
+
+memcached_listen_address: '0.0.0.0'
+

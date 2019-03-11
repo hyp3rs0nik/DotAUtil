@@ -1,0 +1,5 @@
+---
+# file: roles/memcached/handlers/main.yml
+
+- name: restart memcached 
+  service: name=memcached state=restarted

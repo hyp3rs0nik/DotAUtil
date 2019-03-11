@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout android:id="@+id/profile_holder"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#282E3A"
+        android:padding="10dp"
+        android:gravity="top">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/profile_icon"
+                android:src="@drawable/blank_profile"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="15dp"
+                android:padding="3dp" />
+            <ImageView
+                android:src="@drawable/rounded_border"
+                android:layout_width="80dp"
+                android:layout_height="80dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tap to Update"
+                android:id="@+id/profile_name"
+                android:textColor="#ffffff" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Last Online: Unknown"
+                android:id="@+id/profile_activity"
+                android:textColor="#f1f1f1" />
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

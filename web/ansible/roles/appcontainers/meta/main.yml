@@ -1,0 +1,11 @@
+---
+# file: roles/appcontainers/meta/main.yml
+
+allow_duplicates: false
+dependencies:
+  - { role: common }
+  - { role: go }
+
+
+
+

@@ -1,0 +1,4 @@
+{
+  "resourcesPath": "/Users/Shiki/Projects/hamak/mydota/web/gopath/src/hamak/mydota/resources",
+  "dbConnectionString": "user=Shiki dbname=mydota sslmode=disable"
+}

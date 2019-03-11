@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">myDotA</string>
+
+    <string-array name="categories">
+
+        <!-- item name="cat_presence">[\"TPB Status\"]</item -->
+        <!--item name="cat_heroes">[\"Heroes\",\"All\",\"Most Played\",\"Win Rate\",\"Game Impact\",\"Economy\",\"Farm\",\"Damage\"]</item>
+        <item name="cat_items">[\"Items\",\"All\",\"Most Used\",\"Win Rate\",\"Game Impact\",\"Economy\"]</item>
+        <item name="cat_matches">[\"Matches\",\"The International 3\",\"The International 2\",\"Dreamhack\"]</item>
+        <item name="cat_players">[\"Players\",\"Highest Win Rate\",\"Most Played\",\"Time Spent\",\"Verified\"]</item>
+        <item name="cat_teams">[\"Teams\",\"Match Making\"]</item>
+        <item name="cat_news">[\"News\",\"Blog\",,\"Updates\"]</item>
+        <item name="cat_app_settings">[\"Application Settings\"]</item>
+        <item name="cat_settings">[\"Settings\"]</item>
+        <item name="cat_support">[\"Help/Support\"]</item>
+        <item name="cat_like">[\"Rate\"]</item-->
+
+        <item name="cat_dota_news">[\"DotA News\"]</item>
+        <item name="cat_dota_changelogs">[\"DotA ChangeLogs\"]</item>
+        <item name="cat_match_history">[\"My Match History\",\"Latest 25\",\"By Hero\"]</item>
+        <item name="cat_leagues">[\"League Matches\"]</item>
+        <item name="cat_app_settings">[\"Application Settings\"]</item>
+        <item name="cat_settings">[\"Settings\"]</item>
+        <item name="cat_support">[\"Help/Support\"]</item>
+        <item name="cat_like">[\"Rate\"]</item>
+
+
+    </string-array>
+    <string-array name="hero_type">
+        <item>Int</item>
+        <item>Str</item>
+        <item>Agi</item>
+    </string-array>
+    <string-array name="hero_role">
+        <item>Carry</item>
+        <item>Disabler</item>
+        <item>Durable</item>
+        <item>Escape</item>
+        <item>Initiator</item>
+        <item>Jungler</item>
+        <item>Lane Support</item>
+        <item>Nuker</item>
+        <item>Pusher</item>
+        <item>Support</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+
+    <string name="cat_dota_news">DotA News</string>
+    <string name="cat_dota_changelogs">DotA ChangeLogs</string>
+    <string name="cat_match_history">My Match History</string>
+    <string name="cat_leagues">League Matches</string>
+    <string name="cat_app">Application Settings</string>
+    <string name="cat_settings">Settings</string>
+    <string name="cat_support">Help/Support</string>
+    <string name="cat_like">Rate</string>
+
+
+    <string name="subcat_match_history_latest">Latest 25</string>
+    <string name="subcat_match_history_by_hero">By Hero</string>
+
+
+    <!--string name="header_heroes">Heroes</string -->
+
+    <string name="result_listing_error">Unable to retrieve data from the server at this time.</string>
+    <string name="loader_working">Working, please wait…</string>
+    <string name="loader_title_request_result">Request Result</string>
+
+
+    <string name="dialog_button_yes">Yes</string>
+    <string name="dialog_button_ok">Okay</string>
+    <string name="dialog_button_close">Close</string>
+
+
+    <string name="selected_item">You have selected item :</string>
+
+    <!--string name="fragment_tag_heroes_grid">HEROES_GRID</string-->
+    <!--string name="fragment_tag_heroes_most_played">HEROES_MOST_PLAYED</string-->
+    <!--string name="fragment_tag_heroes_winrate">WIN_RATE</string-->
+    <string name="fragment_tag_news_blog">NEWS_BLOG</string>
+    <string name="fragment_tag_news_blog_viewer">NEWS_BLOG_VIEWER</string>
+    <string name="fragment_tag_match_history_latest">MATCH_HISTORY_LATEST</string>
+    <string name="fragment_tag_match_history_by_hero">MATCH_HISTORY_LATEST_BY_HERO</string>
+    <string name="fragment_tag_match_detail">MATCH_DETAIL</string>
+
+    <string name="menu_collapse">More Items</string>
+
+    <string name="title_latest_dota_news">Latest DotA News</string>
+    <string name="title_latest_matches">Recent Matches</string>
+    <string name="filter_match_by_hero">Filter Matches by Hero</string>
+
+    <string name="steam_info_activity">Last Online: $</string>
+
+</resources>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/matches_latest_holder"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/match_detail_table_border"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/match_elapsed"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textColor="#73B780"
+        />
+    <View
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/background_light_grey"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="The Radiant"
+                android:layout_weight=".2"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+        <TextView
+            android:id="@+id/lobbyType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+
+            android:layout_weight=".8"
+            android:text="Public MatchMaking"
+            android:gravity="right|center_vertical"
+
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+            <LinearLayout
+                android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imgMatchLatestHeroRadiant1"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textColor="@color/radiant_color"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:singleLine="true" android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/heroRadiantName1" />
+            </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imgMatchLatestHeroRadiant2"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textColor="@color/radiant_color"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:singleLine="true" android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/heroRadiantName2" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imgMatchLatestHeroRadiant3"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textColor="@color/radiant_color"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:singleLine="true" android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/heroRadiantName3"  />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imgMatchLatestHeroRadiant4"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textColor="@color/radiant_color"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:singleLine="true" android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/heroRadiantName4"  />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imgMatchLatestHeroRadiant5"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textColor="@color/radiant_color"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:singleLine="true" android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/heroRadiantName5"  />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="The Dire"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+    <LinearLayout
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+        <LinearLayout
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imgMatchLatestDireHero1"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textColor="@color/dire_color"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:singleLine="true" android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/heroDireName1" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imgMatchLatestDireHero2"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textColor="@color/dire_color"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:singleLine="true" android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/heroDireName2" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imgMatchLatestDireHero3"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textColor="@color/dire_color"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:singleLine="true" android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/heroDireName3" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imgMatchLatestDireHero4"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textColor="@color/dire_color"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:singleLine="true" android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/heroDireName4" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight=".2"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/imgMatchLatestDireHero5"
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_height="wrap_content"  />
+            <TextView
+                android:textColor="@color/dire_color"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+                android:singleLine="true" android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/heroDireName5" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

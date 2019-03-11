@@ -1,0 +1,32 @@
+---
+# file: roles/dataserver/tasks/main.yml
+
+- name: Create database
+  sudo_user: postgres
+  postgresql_db: 
+    name={{ dataserver_postgresql_dbname }}
+
+- name: Create user for database
+  sudo_user: postgres
+  postgresql_user: 
+    db={{ dataserver_postgresql_dbname }}
+    name={{ dataserver_postgresql_username }}
+    password={{ dataserver_postgresql_password }}
+    priv=ALL
+  register: dataserver_postresql_user_creation
+
+# https://github.com/ansible/ansible-examples/blob/master/language_features/postgresql.yml
+- name: Ensure user does not have unnecessary privilege
+  sudo_user: postgres
+  postgresql_user: name={{ dataserver_postgresql_username }} role_attr_flags=NOSUPERUSER,NOCREATEDB
+
+- name: Set default permissions for user
+  sudo_user: postgres
+  environment:
+    PGPASSWORD: "{{ postgresql_postgres_user_password }}"
+  command: psql -U postgres -h localhost {{ dataserver_postgresql_dbname }} -c  "ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL PRIVILEGES ON {{ item }} TO {{ dataserver_postgresql_username }};"
+  with_items:
+    - TABLES
+    - SEQUENCES
+  when: dataserver_postresql_user_creation.changed
+

@@ -1,0 +1,21 @@
+---
+# file: roles/postgresql/tasks/main.yml
+
+- name: Install PostgreSQL
+  apt: name=postgresql state=present
+  notify: restart postgresql
+  register: postgresql_install_result
+
+- name: Set password of postgres user
+  shell: sudo -u postgres psql -c "ALTER USER postgres PASSWORD '{{ postgresql_postgres_user_password }}';"
+  when: postgresql_install_result.changed
+
+- name: Install other PostgreSQL packages
+  apt: name={{ item }} state=present
+  with_items: 
+    - libpq-dev
+    - python-psycopg2
+
+- name: Copy Monit config to /etc/monit/conf.d/postgresql
+  template: src=monit-confd-postgresql dest=/etc/monit/conf.d/postgresql backup=yes
+  notify: restart monit

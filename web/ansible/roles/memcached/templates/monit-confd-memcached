@@ -1,0 +1,7 @@
+# Managed by Ansible. Do not edit manually. 
+
+check process memcached
+  with pidfile "/var/run/memcached.pid"
+  start program = "/usr/sbin/service memcached start"
+  stop program = "/usr/sbin/service memcached stop"
+

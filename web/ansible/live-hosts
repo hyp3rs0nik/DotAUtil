@@ -1,0 +1,25 @@
+# file: live-hosts
+
+# The entries in your ~/.ssh/config can be like this:
+#
+#     Host besiera.info
+#     HostName xx.xx.xx.xx
+#     User username
+#     IdentityFile ~/.ssh/id_rsa.pub
+#     ServerAliveInterval 30
+#     ForwardAgent yes
+#
+
+besiera.info hostname=hmk-mydota
+
+# These should be all of the hosts
+[live-hosts]
+besiera.info
+
+[dataserver]
+besiera.info
+
+[webservers]
+besiera.info
+
+

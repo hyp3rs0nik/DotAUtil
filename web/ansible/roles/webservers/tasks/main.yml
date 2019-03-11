@@ -1,0 +1,9 @@
+---
+# file: roles/webservers/tasks
+
+- name: Copy supervisord config
+  template: 
+    src=etc/supervisor/conf.d/mydota.conf
+    dest=/etc/supervisor/conf.d/mydota.conf
+    mode=0644
+  notify: reread supervisorctl

@@ -1,0 +1,29 @@
+# Pakfile[.yaml]
+packages:
+  - name: github.com/stretchr/testify
+  - name: github.com/jmcvetta/napping
+  - name: github.com/jinzhu/copier
+  - name: github.com/zenazn/goji
+  - name: gopkg.in/fatih/set.v0
+  - name: bitbucket.org/liamstask/goose/cmd/goose
+  - name: github.com/jinzhu/gorm
+  - name: github.com/robfig/cron
+  - name: gopkg.in/yaml.v1
+  - name: github.com/lann/squirrel
+#
+# Configuration Options:
+# - name:
+#   pakname: pak
+#   targetbranch: origin/master
+
+#
+# Examples:
+#
+# packages:
+# - name: github.com/theplant/req1
+#   pakname: pak
+#   targetbranch: origin/branch1
+# - name: github.com/theplant/req2
+#   pakname: pak
+#   targetbranch: origin/master
+#

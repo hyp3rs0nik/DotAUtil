@@ -1,0 +1,5 @@
+---
+# file: group_vars/dataserver
+
+memcached_listen_address: "127.0.0.1"
+postgresql_postgres_user_password: "FrequentlySawHolePoliceman#!"

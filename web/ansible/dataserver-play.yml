@@ -1,0 +1,10 @@
+---
+# file: dataserver-play.yml
+
+# There should only be 1 dataserver that has MariaDB, Beanstalkd, Redis, and Memcached
+
+- hosts: dataserver
+  sudo: yes
+  roles: 
+    - dataserver
+

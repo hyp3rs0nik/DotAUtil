@@ -1,0 +1,5 @@
+---
+# file: all-play.yml
+
+- include: dataserver-play.yml
+- include: webservers-play.yml

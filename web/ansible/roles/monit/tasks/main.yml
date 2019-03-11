@@ -1,0 +1,10 @@
+---
+# file: roles/monit/tasks/main.yml
+
+- name: Install monit 
+  apt: name=monit state=present
+
+- name: Copy config to /etc/monit/conf.d/common
+  template: src=confd-common dest=/etc/monit/conf.d/common backup=yes
+  notify: restart monit
+

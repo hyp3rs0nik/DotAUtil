@@ -1,0 +1,4 @@
+# file: roles/postgresql/vars/main.yml
+
+# Password of the "postgres" user
+postgresql_postgres_user_password: root

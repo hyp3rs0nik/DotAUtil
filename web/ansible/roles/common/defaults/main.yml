@@ -1,0 +1,6 @@
+# file: roles/common/defaults/main.yml
+
+common_main_apps_basepath: /var/apps
+common_main_data_basepath: /var/data
+common_server_default_group: root
+common_server_default_user: root
